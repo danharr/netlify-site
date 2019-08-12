@@ -1,5 +1,7 @@
 # my-blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1fb052a-586e-4821-897d-325a921fff1d/deploy-status)](https://app.netlify.com/sites/danharrington/deploys)
+
 > Nuxt.js + Vuetify.js project
 
 ## Build Setup
