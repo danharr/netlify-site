@@ -19,6 +19,10 @@
 
           <p>In the near future I hope to share various posts such as reviews of products I've just bought (such as the Nest Outdoor IQ camera) as well as the usual data related posts I'm often thinking of writing (I work for PlayStation in their Business Intelligence department).  Another likely topic I'll cover is how data can be used to improve searching for making puchase decisions.  I'm often amazed at how hard websites make it for users to compare phones for example.  So I'll hopefully make a few web apps that let people compare the latest dash cameras for example
             </p>
+
+            <h3>Update</h3>
+
+            <p>I am now hosting this site on Netlify.  More details <a href="https://danharrington.netlify.com/continuous-deployment">here</a></p>
 </div>
 
 

@@ -1,5 +1,6 @@
 <template>
   <v-app >
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <v-navigation-drawer
       :mini-variant.sync="miniVariant"
       :clipped="clipped"
@@ -46,6 +47,7 @@
       </v-btn>-->
       <a href="\" style="text-decoration:none;"><v-toolbar-title v-text="title"></v-toolbar-title></a>
       <v-spacer></v-spacer>
+      <a  href="https://twitter.com/danjharrington"><v-icon color="blue" >fab fa-twitter-square</v-icon></a>
       <!--<v-btn
         icon
         @click.stop="rightDrawer = !rightDrawer"
@@ -93,7 +95,7 @@
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'Dan\'s blog'
+        title: 'Dan Harrington\'s Blog'
       }
     }
   }
