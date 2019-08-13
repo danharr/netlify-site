@@ -51,11 +51,6 @@ export default {
         link: '/career-vuetify-timeline-cv',
         img: '/v.png'
       },
-      { title: 'My career timeline',
-        summary: 'Where have I worked so far in my career.  We also look at how the timeline component in Vuetify works',
-        link: '/career-vuetify-timeline-cv',
-        img: '/v.png'
-      },
       { title: 'Continuous Deployment',
         summary: 'A little test of github webhooks',
         link: '/continuous-deployment',
