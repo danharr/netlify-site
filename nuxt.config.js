@@ -1,26 +1,18 @@
-
 const routes = [
+  '/about',
   {
-    url: '/',
-    changefreq: 'daily',
+    url: '/first-post',
+    changefreq: 'weekly',
     priority: 1,
-    lastmodISO: '2019-08-11T13:30:00.000Z'
+    lastmodISO: '2019-08-11'
   },
   {
-    url: '/about/',
+    url: '/career-vuetify-timeline-cv',
     changefreq: 'weekly',
-    priority: 0.8,
-    lastmodISO: '2019-08-11T13:30:00.000Z'
-  },
-  {
-    url: '/nest-outdoor-iq-review//',
-    changefreq: 'weekly',
-    priority: 0.8,
-    lastmodISO: '2019-08-11T13:30:00.000Z'
+    priority: 1,
+    lastmodISO: '2019-08-12'
   }
-]
-
-
+];
 
 
 module.exports = {
@@ -73,8 +65,17 @@ generate: {
     }],
     ['@nuxtjs/sitemap', {
       path: '/sitemap.xml',
-      generate: true,
-      routes: routes
+      generate: true
     }]
- ]
+ ],
+
+ sitemap: {
+   hostname: 'https://danharrington.netlify.com',
+   gzip: true,
+   exclude: [
+     '/secret',
+     '/admin/**'
+   ],
+   routes: routes
+ }
 }
