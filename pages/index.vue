@@ -36,7 +36,12 @@ export default {
   name: 'home',
   data () {
     return {
-      posts: [{ title: 'Nest Outdoor IQ Camera',
+      posts: [{ title: '2019/20 Football Season Predictions',
+        summary: 'My thoughts on the upcoming football season',
+        link: '/2020-football-predictions',
+        img: '/v.png'
+      },
+      { title: 'Nest Outdoor IQ Camera',
         summary: '1 month after purchase I review the Nest Outdoor IQ camera, £329 from John Lewis',
         link: '/nest-outdoor-iq-review',
         img: '/nest outdoor iq.png'
