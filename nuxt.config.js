@@ -1,3 +1,28 @@
+
+const routes = [
+  {
+    url: '/',
+    changefreq: 'daily',
+    priority: 1,
+    lastmodISO: '2019-08-11T13:30:00.000Z'
+  },
+  {
+    url: '/about/',
+    changefreq: 'weekly',
+    priority: 0.8,
+    lastmodISO: '2019-08-11T13:30:00.000Z'
+  },
+  {
+    url: '/nest-outdoor-iq-review//',
+    changefreq: 'weekly',
+    priority: 0.8,
+    lastmodISO: '2019-08-11T13:30:00.000Z'
+  }
+]
+
+
+
+
 module.exports = {
   /*
   ** Headers of the page
@@ -38,10 +63,18 @@ module.exports = {
     }
   }
 ,
+generate: {
+  routes: routes
+},
   modules: [
     // Simple usage
     ['@nuxtjs/google-analytics', {
       id: 'UA-82193514-1'
+    }],
+    ['@nuxtjs/sitemap', {
+      path: '/sitemap.xml',
+      generate: true,
+      routes: routes
     }]
  ]
 }
