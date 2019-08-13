@@ -61,7 +61,7 @@ generate: {
   modules: [
     // Simple usage
     ['@nuxtjs/google-analytics', {
-      id: 'UA-82193514-1'
+      id: 'UA-145600908-1'
     }],
     ['@nuxtjs/sitemap', {
       path: '/sitemap.xml',
