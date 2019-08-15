@@ -1,3 +1,5 @@
+Schedule 
+
 <template>
   <v-layout>
     <v-flex >
@@ -5,7 +7,7 @@
       <h1>12 month old sleep schedule</h1>
       <hr>
       <div class="post">
-      <p>Disclaimer: I'm not a doctor or a child care expert. All I am is a new Dad who had a cold who wouldn't sleep more than 2 hours a night in one go but who now sleeps from 8pm to 7am every night (nearly)</p>
+      <p>Disclaimer: I'm not a doctor or a child care expert. All I am is a new Dad who had a child who wouldn't sleep more than 2 hours a night in one go but who now sleeps from 8pm to 7am every night (nearly)</p>
 
       <v-timeline >
       <v-timeline-item
@@ -59,31 +61,31 @@ export default {
         },
         {
           color: 'green',
-          year: '2008',
-          company: 'Mindshare',
+          year: '7-9am',
+          company: 'Playtime',
           site: 'https://www.mindshareworld.com/uk/',
-          about: 'Joined as an Analyst.  HElped automate all the digital reporting for teams working on clients such as Three & Ford'
+          about: 'Play in the garden if weather permits it. Want to build up an appetite for breakfast at 9am'
         },
         {
           color: 'pink',
-          year: '2009',
-          company: 'Media Contacts',
+          year: '9am',
+          company: 'Breakfast Contacts',
           site: 'https://havasmedia.com/',
-          about: 'Later known as Havas Media.  Joined as a Data Analyst, left as Head of Data Visualisation.  I managed a team of 5 analysts'
+          about: 'Baby is fully weaned so this consists of eggs, Portuguese tarts, fruit etc'
         },
         {
           color: 'red',
-          year: '2014',
-          company: 'Royal Mail',
+          year: '9:30-Noon',
+          company: 'Playtime',
           site: 'https://www.royalmail.com/',
-          about: 'Joined a new team of Data Scientists as a Data Visualisation Expert.  Using d3.js and/or Qlikview/Tableau I was making data more accesible'
+          about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesn/'t take a cheeky early nap'
         },
         {
           color: 'blue',
-          year: '2015',
-          company: 'PlayStation',
+          year: 'Noon',
+          company: 'Midday Nap',
           site: 'https://www.royalmail.com/',
-          about: 'Currrently working as Senior Software Engineer.  I use MicroStrategy, Tableau, node.js and many other tools'
+          about: 'Baby hopefully tired enough now to sleep for 2 hours in her cot'
         }
       ]
 
