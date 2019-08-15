@@ -36,7 +36,11 @@ export default {
   name: 'home',
   data () {
     return {
-      posts: [{ title: 'Things to consider when creating a new website',
+      posts: [{ title: 'An example sleep schedule for 12 month old baby',
+        summary: 'A timeline showing an example sleep schedule for a 12 month old baby',
+        link: '/12-month-baby-sleep-schedule',
+        img: '/v.png'
+      },{ title: 'Things to consider when creating a new website',
         summary: 'There are many options to choose from when creating a new website or blog.  In this article I cover some options I\'ve used in the past',
         link: '/creating-new-website-things-to-consider',
         img: '/v.png'
