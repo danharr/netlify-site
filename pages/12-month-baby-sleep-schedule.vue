@@ -1,5 +1,3 @@
-Schedule 
-
 <template>
   <v-layout>
     <v-flex >
@@ -78,14 +76,21 @@ export default {
           year: '9:30-Noon',
           company: 'Playtime',
           site: 'https://www.royalmail.com/',
-          about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesnt take a cheeky early nap'
+          about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesn/'t take a cheeky early nap'
         },
         {
           color: 'blue',
           year: 'Noon',
-          company: 'Midday Nap',
+          company: 'Sleep',
           site: 'https://www.royalmail.com/',
           about: 'Baby hopefully tired enough now to sleep for 2 hours in her cot'
+        },
+        {
+          color: 'red',
+          year: '2pm',
+          company: 'Lunch',
+          site: 'https://www.royalmail.com/',
+          about: 'Hopefully nap lasts 2 hours. Lunch follows straight away then it/'s play time until bath time'
         }
       ]
 
