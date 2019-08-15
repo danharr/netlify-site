@@ -59,6 +59,11 @@ export default {
         summary: 'A little test of github webhooks',
         link: '/continuous-deployment',
         img: '/v.png'
+      },
+      { title: 'New blog',
+        summary: 'A short introduction to this new blog of mine',
+        link: '/first-post',
+        img: '/v.png'
       }
       ],
       dialog: false,
