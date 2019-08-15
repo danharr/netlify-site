@@ -36,7 +36,11 @@ export default {
   name: 'home',
   data () {
     return {
-      posts: [{ title: '2019/20 Football Season Predictions',
+      posts: [{ title: 'Things to consider when creating a new website',
+        summary: 'There are many options to choose from when creating a new website or blog.  In this article I cover some options I\'ve used in the past',
+        link: '/creating-new-website-things-to-consider',
+        img: '/v.png'
+      },{ title: '2019/20 Football Season Predictions',
         summary: 'My thoughts on the upcoming football season',
         link: '/2020-football-predictions',
         img: '/v.png'
