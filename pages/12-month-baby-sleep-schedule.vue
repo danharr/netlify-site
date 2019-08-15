@@ -78,7 +78,7 @@ export default {
           year: '9:30-Noon',
           company: 'Playtime',
           site: 'https://www.royalmail.com/',
-          about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesn/'t take a cheeky early nap'
+          about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesnt take a cheeky early nap'
         },
         {
           color: 'blue',
