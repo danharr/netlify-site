@@ -76,7 +76,7 @@ export default {
           year: '9:30-Noon',
           company: 'Playtime',
           site: 'https://www.royalmail.com/',
-          about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesn/'t take a cheeky early nap'
+          about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesn\'t take a cheeky early nap'
         },
         {
           color: 'blue',
@@ -90,7 +90,7 @@ export default {
           year: '2pm',
           company: 'Lunch',
           site: 'https://www.royalmail.com/',
-          about: 'Hopefully nap lasts 2 hours. Lunch follows straight away then it/'s play time until bath time'
+          about: 'Hopefully nap lasts 2 hours. Lunch follows straight away then it\'s play time until bath time'
         }
       ]
 
