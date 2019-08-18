@@ -67,7 +67,7 @@ export default {
         {
           color: 'pink',
           year: '9am',
-          company: 'Breakfast Contacts',
+          company: 'Breakfast',
           site: 'https://havasmedia.com/',
           about: 'Baby is fully weaned so this consists of eggs, Portuguese tarts, fruit etc'
         },
@@ -91,6 +91,20 @@ export default {
           company: 'Lunch',
           site: 'https://www.royalmail.com/',
           about: 'Hopefully nap lasts 2 hours. Lunch follows straight away then it\'s play time until bath time'
+        },
+        {
+          color: 'blue',
+          year: '2:30pm-5pm',
+          company: 'Play',
+          site: 'https://www.royalmail.com/',
+          about: 'Playtime. This might be a trip into town or a trip to the swings'
+        },
+        {
+          color: 'purple',
+          year: '6pm',
+          company: 'Bath time',
+          site: 'https://www.royalmail.com/',
+          about: 'A 37 degree bath followed by dressing in pyjamas for bed. A story in a low lit room will help send signals that bedtime is near'
         }
       ]
 
