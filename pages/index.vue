@@ -36,7 +36,11 @@ export default {
   name: 'home',
   data () {
     return {
-      posts: [{ title: 'An example sleep schedule for 12 month old baby',
+      posts: [{ title: 'Build your own sensory board',
+        summary: 'How we saved money building our own sensory board (aka busy board)',
+        link: '/build-sensory-busy-board',
+        img: '/v.png'
+      },{ title: 'An example sleep schedule for 12 month old baby',
         summary: 'A timeline showing an example sleep schedule for a 12 month old baby',
         link: '/12-month-baby-sleep-schedule',
         img: '/v.png'

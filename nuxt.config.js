@@ -1,18 +1,18 @@
-const routes = [
-  '/about',
-  {
-    url: '/first-post',
-    changefreq: 'weekly',
-    priority: 1,
-    lastmodISO: '2019-08-11'
-  },
-  {
-    url: '/career-vuetify-timeline-cv',
-    changefreq: 'weekly',
-    priority: 1,
-    lastmodISO: '2019-08-12'
-  }
-];
+// const routes = [
+//   '/about',
+//   {
+//     url: '/first-post',
+//     changefreq: 'weekly',
+//     priority: 1,
+//     lastmodISO: '2019-08-11'
+//   },
+//   {
+//     url: '/career-vuetify-timeline-cv',
+//     changefreq: 'weekly',
+//     priority: 1,
+//     lastmodISO: '2019-08-12'
+//   }
+// ];
 
 
 module.exports = {
@@ -55,27 +55,31 @@ module.exports = {
     }
   }
 ,
-generate: {
-  routes: routes
-},
+// generate: {
+//   routes: routes
+// },
   modules: [
     // Simple usage
     ['@nuxtjs/google-analytics', {
       id: 'UA-145600908-1'
-    }],
-    ['@nuxtjs/sitemap', {
-      path: '/sitemap.xml',
-      generate: true
     }]
- ],
+    // ,
+    // ['@nuxtjs/sitemap', {
+    //   path: '/sitemap.xml',
+    //   generate: true
+    // }]
+ ]
+ 
+ 
+//  ,
 
- sitemap: {
-   hostname: 'https://danharrington.netlify.com',
-   gzip: true,
-   exclude: [
-     '/secret',
-     '/admin/**'
-   ],
-   routes: routes
- }
+//  sitemap: {
+//    hostname: 'https://danharrington.netlify.com',
+//    gzip: true,
+//    exclude: [
+//      '/secret',
+//      '/admin/**'
+//    ],
+//    routes: routes
+//  }
 }
