@@ -10,7 +10,7 @@
 
 <p>A busy board, or sensory board, is a great idea to keep your child entertained whilst improving their motor skills.</p>
 
-<img src="sensory-busy-board" alt="sensory busy board" style="width:100%;">
+<img src="sensory-busy-board.jpg" alt="sensory busy board" style="width:100%;">
 
 <p>Buying one online seems to cost about £150 upwards but it's common to build these yourself using spare parts you find around the house.  It's also pretty easy and a fun project to do with other parents</p>
 
