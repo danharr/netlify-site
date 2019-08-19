@@ -47,6 +47,14 @@ All children are different so don't expect to get the same results. The above ju
 <script>
 export default {
   name: 'baby',
+    head () {
+    return {
+      title: '12 month sleep schedule',
+      meta: [
+        { hid: 'description', name: 'description', content: 'An example 1 year sleep schedule' }
+      ]
+    }
+  },
   data () {
     return {
       years: [
@@ -60,7 +68,7 @@ export default {
         {
           color: 'green',
           year: '7-9am',
-          company: 'Playtime',
+          company: 'Play time',
           site: 'https://www.mindshareworld.com/uk/',
           about: 'Play in the garden if weather permits it. Want to build up an appetite for breakfast at 9am'
         },
@@ -74,7 +82,7 @@ export default {
         {
           color: 'red',
           year: '9:30-Noon',
-          company: 'Playtime',
+          company: 'Play time',
           site: 'https://www.royalmail.com/',
           about: 'Go to a baby club or visit relatives. Avoid pushchair so baby doesn\'t take a cheeky early nap'
         },
@@ -95,16 +103,30 @@ export default {
         {
           color: 'blue',
           year: '2:30pm-5pm',
-          company: 'Play',
+          company: 'Play time',
           site: 'https://www.royalmail.com/',
           about: 'Playtime. This might be a trip into town or a trip to the swings'
         },
         {
           color: 'purple',
+          year: '5pm',
+          company: 'Dinner',
+          site: 'https://www.royalmail.com/',
+          about: 'A good dinner should follow as a few hours have passed since lunch.  Dinner might be smaller if they\'ve snacked often since lunch'
+        },
+        {
+          color: 'green',
           year: '6pm',
           company: 'Bath time',
           site: 'https://www.royalmail.com/',
           about: 'A 37 degree bath followed by dressing in pyjamas for bed. A story in a low lit room will help send signals that bedtime is near'
+        },
+        {
+          color: 'orange',
+          year: '7:30pm',
+          company: 'Bed time',
+          site: 'https://www.royalmail.com/',
+          about: 'A warm bottle of milk (optional) as baby falls asleep in arms before being laid down in cot for the night'
         }
       ]
 
