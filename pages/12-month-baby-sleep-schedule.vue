@@ -36,9 +36,7 @@ All children are different so don't expect to get the same results. The above ju
 
     </p>
 </div>
-
-
-    </v-flex>
+</v-flex>
   </v-layout>
 </template>
 

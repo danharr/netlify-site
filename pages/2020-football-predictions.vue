@@ -43,12 +43,16 @@ In Europe, I think PSG are ling overdue a good run.  With the money they've spen
     <th>My Prediction</th>
   </tr>
   <tr v-for="x in msg" :key="x.team">
-    <td><img :src="x.crest" :alt="x.team" style="height:40px;align:center;"></img></td>
+    <td><img :src="x.crest" :alt="x.team" style="height:40px;align:center;"></td>
     <td>{{x.team}}</td>
     <td>{{x.pos}}</td>
     <td>{{x.pred}}</td>
   </tr>
   </table>
+
+   <div class="comments">
+    <vue-disqus shortname="https-danharrington-netlify-com" :identifier="page_id" url="http://example.com/path"></vue-disqus>
+  </div>
 
 </div>
 
