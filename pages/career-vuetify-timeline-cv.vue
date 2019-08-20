@@ -38,7 +38,7 @@ changing dot size, including icons on the dots and much more.  Recruitment agens
 
     </p>
 </div>
-
+<OtherPosts/>
 
     </v-flex>
   </v-layout>
@@ -47,8 +47,13 @@ changing dot size, including icons on the dots and much more.  Recruitment agens
 
 
 <script>
+import OtherPosts from '~/components/OtherPosts'
+
 export default {
   name: 'cv',
+  components: {
+    OtherPosts
+  },
   data () {
     return {
       years: [

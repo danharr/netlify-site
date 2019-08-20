@@ -55,7 +55,7 @@ In Europe, I think PSG are ling overdue a good run.  With the money they've spen
   </div> -->
 
 </div>
-
+<OtherPosts/>
 
     </v-flex>
   </v-layout>
@@ -64,8 +64,12 @@ In Europe, I think PSG are ling overdue a good run.  With the money they've spen
 
 <script>
 import axios from 'axios'
+import OtherPosts from '~/components/OtherPosts'
 
 export default {
+  components: {
+    OtherPosts
+  },
   head () {
     return {
       title: 'Predictions for the 2020 football season',

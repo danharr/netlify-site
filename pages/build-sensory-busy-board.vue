@@ -29,7 +29,7 @@
 <p>Overall we managed to keep the cost under £60, which is a big saving versus buying one premade.</p>
 
 </div>
-
+<OtherPosts/>
 
     </v-flex>
   </v-layout>
@@ -37,6 +37,8 @@
 
 
 <script>
+import OtherPosts from '~/components/OtherPosts'
+
 export default {
   head () {
     return {
@@ -45,6 +47,9 @@ export default {
         { hid: 'description', name: 'description', content: 'How we built a busy board for sensory skills' }
       ]
     }
+  },
+  components: {
+    OtherPosts
   }
 }
 </script>

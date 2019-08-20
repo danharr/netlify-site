@@ -3,16 +3,17 @@
    
    <v-app id="inspire">
    <hr>
-<h3>Other posts</h3>
-<div  v-for="x in posts" :key="x.title">
+<h3>Other posts you might like:</h3>
+<div  v-for="x in others" :key="x.link">
 <v-alert
 outline
    
-      type="info"
+     color="blue"
+     icon="turned_in"
       elevation="2"
       style="display:flex;"
     >
-     {{x.title}} : <span style="color:black;">{{x.summary}}</span>
+     <a style="text-decoration:none;" :href="x.link">{{x.title}}</a> : <span style="color:black;">{{x.summary}}</span>
     </v-alert>
   
   </div>
@@ -67,6 +68,13 @@ export default {
         'img': '/v.png'
       }
       ]
+    }
+  },
+  computed: {
+    others () {
+      return this.posts.sort(function () {
+        return 0.5 - Math.random()
+      }).slice(0, 6)
     }
   },
 

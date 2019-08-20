@@ -29,14 +29,19 @@ In contrast, an SSR site will be rendered on a server before the user visits the
 
 </div>
 
-
+<OtherPosts/>
     </v-flex>
   </v-layout>
 </template>
 
 
 <script>
+import OtherPosts from '~/components/OtherPosts'
+
 export default {
+  components: {
+    OtherPosts
+  },
   head () {
     return {
       title: 'Topics to consider when building a new website',

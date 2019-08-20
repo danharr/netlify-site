@@ -38,7 +38,7 @@ Overall the Nest Outdoor IQ is a great camera and is worth the premium price and
 
               </p>
 </div>
-
+<OtherPosts/>
 
     </v-flex>
   </v-layout>
@@ -46,7 +46,12 @@ Overall the Nest Outdoor IQ is a great camera and is worth the premium price and
 
 
 <script>
+import OtherPosts from '~/components/OtherPosts'
+
 export default {
+  components: {
+    OtherPosts
+  },
   head () {
     return {
       title: 'Nest IQ Outdoor Camera review and thoughts',

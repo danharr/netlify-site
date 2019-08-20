@@ -24,12 +24,29 @@
 
             <p>I am now hosting this site on Netlify.  More details <a href="https://danharrington.netlify.com/continuous-deployment">here</a></p>
 </div>
-
+<OtherPosts/>
 
     </v-flex>
   </v-layout>
 </template>
 
+<script>
+import OtherPosts from '~/components/OtherPosts'
+
+export default {
+  components: {
+    OtherPosts
+  },
+  head () {
+    return {
+      title: 'First post on this blog',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Why I have made this blog' }
+      ]
+    }
+  }
+}
+</script>
 
 <style>
 hr {margin:20px;}
