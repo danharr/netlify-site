@@ -1,33 +1,24 @@
 <template>
- <v-app id="inspire">
-  <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
-    
-      <v-card class="posts" v-for="x in posts" :key="x.link" >
-        <div style="display:flex;">
-        <v-card-title style="color:#1976d2 ;" class="headline"><a style="text-decoration: none;" :href="x.link">{{x.title}}</a></v-card-title>
-        <v-spacer></v-spacer>
-        <v-avatar style="margin:20px"> 
-      <img :src="x.img" alt="avatar">
-    </v-avatar>
-        </div>
-              
-        <v-card-text>
-          <p>{{x.summary}}</p>
-          
-        
- 
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn outline color="primary" flat nuxt :to="x.link">READ</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-flex>
-  </v-layout>
- </v-app>
+ <div>
+   
+   <v-app id="inspire">
+   <hr>
+<h3>Other posts</h3>
+<div  v-for="x in posts" :key="x.title">
+<v-alert
+outline
+   
+      type="info"
+      elevation="2"
+      style="display:flex;"
+    >
+     {{x.title}} : <span style="color:black;">{{x.summary}}</span>
+    </v-alert>
+  
+  </div>
+</v-app>
+   </div>
 </template>
-
 
 
 
@@ -35,7 +26,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'home',
+  name: 'other',
   data () {
     return {
       posts: [{ 'title': 'Build your own sensory board',
@@ -75,13 +66,7 @@ export default {
         'link': '/first-post',
         'img': '/v.png'
       }
-      ],
-      dialog: false,
-      page: 1,
-      max: 20,
-      id: '',
-      name: '',
-      desc: ''
+      ]
     }
   },
 
@@ -97,14 +82,6 @@ export default {
 </script>
 
 
-
 <style>
-
-.posts {
-
-margin:15px;
-
-
-}
-
+ 
 </style>

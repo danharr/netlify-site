@@ -36,6 +36,9 @@ All children are different so don't expect to get the same results. The above ju
 
     </p>
 </div>
+
+
+<OtherPosts/>
 </v-flex>
   </v-layout>
 </template>
@@ -43,8 +46,13 @@ All children are different so don't expect to get the same results. The above ju
 
 
 <script>
+import OtherPosts from '~/Components/OtherPosts'
+
 export default {
   name: 'baby',
+  components: {
+    OtherPosts
+  },
   head () {
     return {
       title: '12 month sleep schedule',
