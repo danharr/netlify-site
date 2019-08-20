@@ -46,7 +46,7 @@ All children are different so don't expect to get the same results. The above ju
 
 
 <script>
-import OtherPosts from '~/Components/OtherPosts'
+import OtherPosts from '~/components/OtherPosts'
 
 export default {
   name: 'baby',
