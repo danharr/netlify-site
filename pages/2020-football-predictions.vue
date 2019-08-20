@@ -50,9 +50,9 @@ In Europe, I think PSG are ling overdue a good run.  With the money they've spen
   </tr>
   </table>
 
-   <div class="comments">
+   <!-- <div class="comments">
     <vue-disqus shortname="https-danharrington-netlify-com" :identifier="page_id" url="http://example.com/path"></vue-disqus>
-  </div>
+  </div> -->
 
 </div>
 
