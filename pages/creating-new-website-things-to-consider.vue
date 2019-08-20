@@ -36,8 +36,6 @@ In contrast, an SSR site will be rendered on a server before the user visits the
 
 
 <script>
-import axios from 'axios'
-
 export default {
   head () {
     return {

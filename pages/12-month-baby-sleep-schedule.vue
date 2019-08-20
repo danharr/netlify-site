@@ -47,7 +47,7 @@ All children are different so don't expect to get the same results. The above ju
 <script>
 export default {
   name: 'baby',
-    head () {
+  head () {
     return {
       title: '12 month sleep schedule',
       meta: [
