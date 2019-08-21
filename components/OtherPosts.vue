@@ -4,7 +4,7 @@
    <v-app id="inspire">
    <hr>
 <h3>Other posts you might like:</h3>
-<div  v-for="x in others" :key="x.link">
+<div  v-for="x in posts" :key="x.link">
 <v-alert
 outline
    
