@@ -50,9 +50,6 @@ export default {
         { hid: 'description', name: 'description', content: 'How we built a busy board for sensory skills' }
       ]
     }
-  },
-  components: {
-    OtherPosts
   }
 }
 </script>
