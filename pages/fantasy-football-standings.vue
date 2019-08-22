@@ -9,14 +9,14 @@
       <h2>EPL Finishing Positions</h2>
 <table>
   <tr>
-    <th style="width:20px;"> </th>
-    <th>Pos</th>
+    <!-- <th style="width:20px;"> </th>
+    <th>Pos</th> -->
     <th>Team</th>
     <th>Winners</th>
   </tr>
   <tr v-for="x in msg.slice(0,6)" :key="x.team">
-    <td     style="text-align: center;"><img :src="x.crest" :alt="x.team" style="height:20px;margin:auto;"></td>
-    <td>{{x.pos}}</td>
+    <!-- <td     style="text-align: center;"><img :src="x.crest" :alt="x.team" style="height:20px;margin:auto;"></td>
+    <td>{{x.pos}}</td> -->
     <td>{{x.team}}</td>
     <td>
     <v-chip
