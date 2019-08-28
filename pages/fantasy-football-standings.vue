@@ -32,9 +32,9 @@
       <v-radio label="3rd" value="3"></v-radio>
       <v-radio label="4th" value="4"></v-radio>
       <v-radio label="5th" value="5"></v-radio>
-      <v-radio label="18th" value="6"></v-radio>
-      <v-radio label="19th" value="7"></v-radio>
-      <v-radio label="20th" value="8"></v-radio>
+      <v-radio label="18th" value="18"></v-radio>
+      <v-radio label="19th" value="19"></v-radio>
+      <v-radio label="20th" value="20"></v-radio>
 
 
     </v-radio-group>
@@ -48,13 +48,14 @@
   <tr v-for="x in epl.slice(0,60)" :key="x.team">
     <!-- <td     style="text-align: center;"><img :src="x.crest" :alt="x.team" style="height:20px;margin:auto;"></td>
     <td>{{x.pos}}</td> -->
-    <td>{{x.team}}</td>
+    <td>{{x.team.replace(' FC', '')}}</td>
     <td>
     <v-chip
-      class="ma-2"
+    class="ma-1"
       :color="x.pos==finishing ? 'green' : 'red'" v-for="p in x.pred" :key="p"
       label
       text-color="white"
+      x-small
     >
       
       {{p}}
@@ -236,6 +237,161 @@ export default {
           'Samuel Dawkins',
           'Tyler Logiudice']
       },
+      preds4: {
+        'Arsenal FC': ['Al Hapgood',
+          'Alex Czopowyj',
+          'Andy Harrington ',
+          'Dan Mahony',
+          'Dylan Unger',
+          'Jason Dawkins',
+          'Jon Carolan',
+          'Mark Millen',
+          'Paul Simmons',
+          'Russ Coombes',
+          'Tyler Logiudice'],
+        'Manchester United FC': ['Samuel Dawkins'],
+        'Tottenham Hotspur FC': ['Andy Emery ',
+          'Chris Ambrose',
+          'Dan Harrington',
+          'Dave Groves',
+          'Joe Sutton',
+          'Kieran Mackelden',
+          'Shayan Sichani',
+          'Tony Smith'],
+        'Wolverhampton Wanderers FC': ['Sam Crowhurst'],
+        'Chelsea FC': ['Brunel Woods',
+          'Dennis Ong',
+          'Keir Novesky',
+          'Lauren Smith',
+          'Luke Randall',
+          'Matt Millen',
+          'Ping Chen',
+          'Steve Ambrose']
+      },
+      preds5: {
+        'Arsenal FC': ['Dennis Ong',
+          'Joe Sutton',
+          'Keir Novesky',
+          'Luke Randall',
+          'Sam Crowhurst',
+          'Samuel Dawkins'],
+        'Chelsea FC': ['Alex Czopowyj',
+          'Andy Harrington ',
+          'Chris Ambrose',
+          'Dan Harrington',
+          'Dylan Unger',
+          'Jon Carolan',
+          'Mark Millen',
+          'Paul Simmons',
+          'Shayan Sichani',
+          'Tony Smith'],
+        'Leicester City FC': ['Al Hapgood',
+          'Dave Groves'],
+        'Manchester United FC': ['Andy Emery ',
+          'Brunel Woods',
+          'Dan Mahony',
+          'Kieran Mackelden',
+          'Lauren Smith',
+          'Matt Millen',
+          'Ping Chen',
+          'Russ Coombes',
+          'Tyler Logiudice'],
+        'Tottenham Hotspur FC': ['Steve Ambrose'],
+        'Southampton FC': ['Jason Dawkins']
+      },
+      preds18: {
+        'Aston Villa FC': ['Alex Czopowyj',
+          'Matt Millen'],
+        'Brighton & Hove Albion FC': ['Andy Harrington ',
+          'Dan Mahony',
+          'Joe Sutton',
+          'Keir Novesky',
+          'Kieran Mackelden',
+          'Russ Coombes',
+          'Samuel Dawkins',
+          'Tyler Logiudice'],
+        'Burnley FC': ['Andy Emery ',
+          'Lauren Smith',
+          'Mark Millen'],
+        'Crystal Palace FC': ['Dave Groves'],
+        'Newcastle United FC': ['Al Hapgood',
+          'Brunel Woods',
+          'Dennis Ong',
+          'Jon Carolan',
+          'Luke Randall',
+          'Shayan Sichani'],
+        'Norwich City FC': ['Chris Ambrose',
+          'Dylan Unger',
+          'Jason Dawkins',
+          'Ping Chen',
+          'Sam Crowhurst'],
+        'Sheffield United FC': ['Dan Harrington',
+          'Paul Simmons',
+          'Steve Ambrose'],
+        'Southampton FC': ['Tony Smith']
+      },
+      preds19: {
+        'Aston Villa FC': ['Dan Mahony',
+          'Ping Chen'],
+        'Brighton & Hove Albion FC': ['Dennis Ong',
+          'Dylan Unger',
+          'Mark Millen',
+          'Matt Millen',
+          'Shayan Sichani',
+          'Steve Ambrose'],
+        'Burnley FC': ['Chris Ambrose',
+          'Dan Harrington',
+          'Jason Dawkins',
+          'Sam Crowhurst'],
+        'Norwich City FC': ['Andy Emery ',
+          'Andy Harrington ',
+          'Joe Sutton',
+          'Kieran Mackelden',
+          'Paul Simmons',
+          'Tony Smith'],
+        'Sheffield United FC': ['Al Hapgood',
+          'Alex Czopowyj',
+          'Brunel Woods',
+          'Dave Groves',
+          'Jon Carolan',
+          'Keir Novesky',
+          'Lauren Smith',
+          'Luke Randall',
+          'Russ Coombes',
+          'Samuel Dawkins',
+          'Tyler Logiudice']
+      },
+      preds20: {
+        'Aston Villa FC': ['Brunel Woods',
+          'Jason Dawkins'],
+        'Brighton & Hove Albion FC': ['Al Hapgood',
+          'Dan Harrington'],
+        'Burnley FC': ['Paul Simmons'],
+        'Newcastle United FC': ['Alex Czopowyj',
+          'Jon Carolan',
+          'Lauren Smith'],
+        'Norwich City FC': ['Dave Groves',
+          'Keir Novesky',
+          'Luke Randall',
+          'Russ Coombes',
+          'Samuel Dawkins',
+          'Steve Ambrose',
+          'Tyler Logiudice'],
+        'Sheffield United FC': ['Andy Emery ',
+          'Andy Harrington ',
+          'Chris Ambrose',
+          'Dan Mahony',
+          'Dennis Ong',
+          'Dylan Unger',
+          'Joe Sutton',
+          'Kieran Mackelden',
+          'Mark Millen',
+          'Matt Millen',
+          'Ping Chen',
+          'Sam Crowhurst',
+          'Shayan Sichani',
+          'Tony Smith']
+      },
       headers: [
         { text: ' ', value: 'crest' },
         { text: 'Team', value: 'team' },
@@ -251,19 +407,36 @@ export default {
         var t = this.preds
         var t2 = this.preds2
         var t3 = this.preds3
+        var t4 = this.preds4
+        var t5 = this.preds5
+        var t18 = this.preds18
+        var t19 = this.preds19
+        var t20 = this.preds20
         var y = []
         var y2 = []
         var y3 = []
+        var y4 = []
+        var y5 = []
+        var y18 = []
+        var y19 = []
+        var y20 = []
         var x = response.data.standings[0].table
         x.forEach(function (d) { y.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t[d.team.name] }) })
         x.forEach(function (d) { y2.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t2[d.team.name] }) })
         x.forEach(function (d) { y3.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t3[d.team.name] }) })
-        console.log('y')
-        console.log(y)
-        // console.log(x)
+        x.forEach(function (d) { y4.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t4[d.team.name] }) })
+        x.forEach(function (d) { y5.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t5[d.team.name] }) })
+        x.forEach(function (d) { y18.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t18[d.team.name] }) })
+        x.forEach(function (d) { y19.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t19[d.team.name] }) })
+        x.forEach(function (d) { y20.push({ team: d.team.name, pos: d.position, crest: d.team.crestUrl, pred: t20[d.team.name] }) })
         this.winners = y
         this.runners_up = y2
         this.third = y3
+        this.fourth = y4
+        this.fifth = y5
+        this.r18 = y18
+        this.r19 = y19
+        this.r20 = y20
       })
 
     axios
@@ -283,6 +456,16 @@ export default {
         return this.runners_up
       } else if (this.finishing === '3') {
         return this.third
+      } else if (this.finishing === '4') {
+        return this.fourth
+      } else if (this.finishing === '5') {
+        return this.fifth
+      } else if (this.finishing === '18') {
+        return this.r18
+      } else if (this.finishing === '19') {
+        return this.r19
+      } else if (this.finishing === '20') {
+        return this.r20
       } else {
         return this.winners
       }
@@ -304,12 +487,13 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  font-size: 12px;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 3px;
 }
 
 tr:nth-child(even) {
