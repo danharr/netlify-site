@@ -38,7 +38,11 @@ export default {
   name: 'home',
   data () {
     return {
-      posts: [{ 'title': 'Build your own sensory board',
+      posts: [{ "title": "Latest Fantasy Football Standings",
+        "summary": "Matt's private league - standings visualised",
+        "link": "/fantasy-football-standings",
+        "img": "/v.png"
+      }, { 'title': 'Build your own sensory board',
         'summary': 'How we saved money building our own sensory board (aka busy board)',
         'link': '/build-sensory-busy-board',
         'img': '/sensory-busy-board-small.jpg'
