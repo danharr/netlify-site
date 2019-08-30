@@ -3,7 +3,35 @@
     <v-flex >
       
       <h1>Fantasy Football Predictions</h1>
+      <h2>Live standings</h2>
+      <table>
+  <tr>
+    <!-- <th style="width:20px;"> </th>
+    <th>Pos</th> -->
+    <th>Name</th>
+    <th>Fee</th>
+    <th>Points</th>
+
+  </tr>
+  <tr v-for="x in standings" :key="x.Name">
+    <!-- <td     style="text-align: center;"><img :src="x.crest" :alt="x.team" style="height:20px;margin:auto;"></td>
+    <td>{{x.pos}}</td> -->
+    <td>{{x.Name}}</td>
+        <td>
+    <v-chip
+    class="ma-1"
+      :color="x.Fee=='$35' ? 'blue' : 'purple'"
+      label
+      text-color="white"
+      x-small
+    >
       
+      {{x.Fee}}
+    </v-chip></td>
+    <td>{{x.Points}}</td>
+  </tr>
+  </table>
+
       <div class="post">
       
      
@@ -112,6 +140,7 @@ export default {
   },
   data () {
     return {
+      standings: [],
       top_scorer: [{ 'player': { 'id': 24121, 'name': 'Teemu Pukki', 'firstName': 'Teemu', 'lastName': null, 'dateOfBirth': '1990-03-29', 'countryOfBirth': 'Finland', 'nationality': 'Finland', 'position': 'Attacker', 'shirtNumber': 22, 'lastUpdated': '2019-08-22T03:15:37Z' }, 'team': { 'id': 68, 'name': 'Norwich City FC' }, 'numberOfGoals': 4 }],
       finishing: '1',
       runners_up: [{ 'team': 'Sheffield United FC', 'pos': 8, 'crest': 'https://upload.wikimedia.org/wikipedia/en/9/9c/Sheffield_United_FC_logo.svg' }],
@@ -446,6 +475,12 @@ export default {
         var t = this.scorer
         response.data.scorers.forEach(function (d) { y.push({ player: d.player.name, goals: d.numberOfGoals, pred: t[d.player.name] }) })
         this.top_scorer = y
+      })
+
+    axios
+      .get('standings.json')
+      .then(response => {
+        this.standings = response.data
       })
   },
   computed: {
