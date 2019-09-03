@@ -31,7 +31,8 @@
     <td>{{x.Points}}</td>
   </tr>
   </table>
-
+<hr>
+<h1>Categories</h1>
       <div class="post">
       
      
