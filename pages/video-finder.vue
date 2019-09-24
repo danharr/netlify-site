@@ -186,7 +186,7 @@ drawer: null,
   },
   mounted () {
     axios
-      .get('videos.json')
+      .get('/videos.json')
       .then(response => {
         console.log(response.data)
 
