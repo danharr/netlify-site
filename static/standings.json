@@ -1,182 +1,182 @@
 [
-    {
-      "Name": "Brunel Woods",
-      "Fee": "$35",
-      "Points": 42,
-      "Rank": 1
-    },
-    {
-      "Name": "Dan Harrington",
-      "Fee": "$75",
-      "Points": 35,
-      "Rank": 2
-    },
-    {
-      "Name": "Dave Groves",
-      "Fee": "$75",
-      "Points": 35,
-      "Rank": 2
-    },
-    {
-      "Name": "Tyler Logiudice",
-      "Fee": "$35",
-      "Points": 35,
-      "Rank": 2
-    },
-    {
-      "Name": "Russ Coombes",
-      "Fee": "$35",
-      "Points": 35,
-      "Rank": 2
-    },
-    {
-      "Name": "Andy Emery",
-      "Fee": "$35",
-      "Points": 35,
-      "Rank": 2
-    },
-    {
-      "Name": "Ping Chen",
-      "Fee": "$75",
-      "Points": 32,
-      "Rank": 7
-    },
-    {
-      "Name": "Luke Randall",
-      "Fee": "$75",
-      "Points": 30,
-      "Rank": 8
-    },
-    {
-      "Name": "Keir Novesky",
-      "Fee": "$35",
-      "Points": 30,
-      "Rank": 8
-    },
-    {
-      "Name": "Tony Smith",
-      "Fee": "$35",
-      "Points": 30,
-      "Rank": 8
-    },
-    {
-      "Name": "Dylan Unger",
-      "Fee": "$75",
-      "Points": 30,
-      "Rank": 8
-    },
-    {
-      "Name": "Mr Average",
-      "Fee": "N/A",
-      "Points": 30,
-      "Rank": 8
-    },
-    {
-      "Name": "Jason Dawkins",
-      "Fee": "$75",
-      "Points": 27,
-      "Rank": 13
-    },
-    {
-      "Name": "Andy Harrington",
-      "Fee": "$75",
-      "Points": 27,
-      "Rank": 13
-    },
-    {
-      "Name": "Lauren Smith",
-      "Fee": "$35",
-      "Points": 27,
-      "Rank": 13
-    },
-    {
-      "Name": "Kieran Mackelden",
-      "Fee": "$75",
-      "Points": 25,
-      "Rank": 16
-    },
-    {
-      "Name": "Jon Carolan",
-      "Fee": "$75",
-      "Points": 25,
-      "Rank": 16
-    },
-    {
-      "Name": "Steve Ambrose",
-      "Fee": "$75",
-      "Points": 25,
-      "Rank": 16
-    },
-    {
-      "Name": "Chris Ambrose",
-      "Fee": "$75",
-      "Points": 25,
-      "Rank": 16
-    },
-    {
-      "Name": "Samuel Dawkins",
-      "Fee": "$35",
-      "Points": 25,
-      "Rank": 16
-    },
-    {
-      "Name": "Matt Millen",
-      "Fee": "$75",
-      "Points": 25,
-      "Rank": 16
-    },
-    {
-      "Name": "Alex Czopowyj",
-      "Fee": "$35",
-      "Points": 25,
-      "Rank": 16
-    },
-    {
-      "Name": "Paul Simmons",
-      "Fee": "$75",
-      "Points": 22,
-      "Rank": 23
-    },
-    {
-      "Name": "Dan Mahony",
-      "Fee": "$35",
-      "Points": 20,
-      "Rank": 24
-    },
-    {
-      "Name": "Shayan Sichani",
-      "Fee": "$35",
-      "Points": 20,
-      "Rank": 24
-    },
-    {
-      "Name": "Mark Millen",
-      "Fee": "$35",
-      "Points": 20,
-      "Rank": 24
-    },
-    {
-      "Name": "Sam Crowhurst",
-      "Fee": "$35",
-      "Points": 20,
-      "Rank": 24
-    },
-    {
-      "Name": "Joe Sutton",
-      "Fee": "$75",
-      "Points": 15,
-      "Rank": 28
-    },
-    {
-      "Name": "Al Hapgood",
-      "Fee": "$75",
-      "Points": 10,
-      "Rank": 29
-    },
-    {
-      "Name": "Dennis Ong",
-      "Fee": "$75",
-      "Points": 10,
-      "Rank": 29
-    }
-  ]
+  {
+    "Name": "Tyler Logiudice",
+    "Fee": "$35",
+    "Points": 54,
+    "Rank": 1
+  },
+  {
+    "Name": "Brunel Woods",
+    "Fee": "$35",
+    "Points": 47,
+    "Rank": 2
+  },
+  {
+    "Name": "Russ Coombes",
+    "Fee": "$35",
+    "Points": 47,
+    "Rank": 2
+  },
+  {
+    "Name": "Tony Smith",
+    "Fee": "$35",
+    "Points": 40,
+    "Rank": 4
+  },
+  {
+    "Name": "Matt Millen",
+    "Fee": "$75",
+    "Points": 40,
+    "Rank": 4
+  },
+  {
+    "Name": "Mr Average",
+    "Fee": "N/A",
+    "Points": 40,
+    "Rank": 4
+  },
+  {
+    "Name": "Luke Randall",
+    "Fee": "$75",
+    "Points": 39,
+    "Rank": 7
+  },
+  {
+    "Name": "Jason Dawkins",
+    "Fee": "$75",
+    "Points": 37,
+    "Rank": 8
+  },
+  {
+    "Name": "Keir Novesky",
+    "Fee": "$35",
+    "Points": 37,
+    "Rank": 8
+  },
+  {
+    "Name": "Alex Czopowyj",
+    "Fee": "$35",
+    "Points": 34,
+    "Rank": 10
+  },
+  {
+    "Name": "Dan Harrington",
+    "Fee": "$75",
+    "Points": 32,
+    "Rank": 11
+  },
+  {
+    "Name": "Andy Harrington",
+    "Fee": "$75",
+    "Points": 32,
+    "Rank": 11
+  },
+  {
+    "Name": "Steve Ambrose",
+    "Fee": "$75",
+    "Points": 32,
+    "Rank": 11
+  },
+  {
+    "Name": "Dylan Unger",
+    "Fee": "$75",
+    "Points": 32,
+    "Rank": 11
+  },
+  {
+    "Name": "Joe Sutton",
+    "Fee": "$75",
+    "Points": 30,
+    "Rank": 15
+  },
+  {
+    "Name": "Dave Groves",
+    "Fee": "$75",
+    "Points": 30,
+    "Rank": 15
+  },
+  {
+    "Name": "Jon Carolan",
+    "Fee": "$75",
+    "Points": 30,
+    "Rank": 15
+  },
+  {
+    "Name": "Chris Ambrose",
+    "Fee": "$75",
+    "Points": 30,
+    "Rank": 15
+  },
+  {
+    "Name": "Mark Millen",
+    "Fee": "$35",
+    "Points": 30,
+    "Rank": 15
+  },
+  {
+    "Name": "Dennis Ong",
+    "Fee": "$75",
+    "Points": 27,
+    "Rank": 20
+  },
+  {
+    "Name": "Ping Chen",
+    "Fee": "$75",
+    "Points": 27,
+    "Rank": 20
+  },
+  {
+    "Name": "Paul Simmons",
+    "Fee": "$75",
+    "Points": 27,
+    "Rank": 20
+  },
+  {
+    "Name": "Dan Mahony",
+    "Fee": "$35",
+    "Points": 25,
+    "Rank": 23
+  },
+  {
+    "Name": "Samuel Dawkins",
+    "Fee": "$35",
+    "Points": 25,
+    "Rank": 23
+  },
+  {
+    "Name": "Shayan Sichani",
+    "Fee": "$35",
+    "Points": 25,
+    "Rank": 23
+  },
+  {
+    "Name": "Andy Emery",
+    "Fee": "$35",
+    "Points": 25,
+    "Rank": 23
+  },
+  {
+    "Name": "Al Hapgood",
+    "Fee": "$75",
+    "Points": 20,
+    "Rank": 27
+  },
+  {
+    "Name": "Kieran Mackelden",
+    "Fee": "$75",
+    "Points": 20,
+    "Rank": 27
+  },
+  {
+    "Name": "Lauren Smith",
+    "Fee": "$35",
+    "Points": 17,
+    "Rank": 29
+  },
+  {
+    "Name": "Sam Crowhurst",
+    "Fee": "$35",
+    "Points": 17,
+    "Rank": 29
+  }
+]
