@@ -1,4 +1,9 @@
-[{ "title": "Latest Fantasy Football Standings",
+[{ "title": "ALternative Premier League Table",
+  "summary": "Also known as Cann tables",
+  "link": "/alternative-league-tables",
+  "img": "/v.png"
+},
+{ "title": "Latest Fantasy Football Standings",
   "summary": "A private league - standings visualised",
   "link": "/fantasy-football-standings",
   "img": "/v.png"
