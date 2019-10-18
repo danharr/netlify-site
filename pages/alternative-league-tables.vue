@@ -3,15 +3,43 @@
     <script src="https://d3js.org/d3-array.v2.min.js"></script>
     <v-flex >
       
-      <h1>ALternative League Tables</h1>
+      <h1>Alternative League Tables</h1>
      
 
 
       <div class="post">
       
      
-      <p>content goes here</p>
-      <div v-for="x in PL" ><p>{{x.points}}</p> <p v-for="t in x.teams">{{t}}</p> </div>
+      <p>The alternative league tables shown below (also known as <a href="https://canntables.com/">Cann Tables</a>, more see <a href="http://www.sportsvisualized.com/">here</a>) are a great way of showing the gaps 
+      between teams in the league table.  Perhaps your team are in 6th place but they're 20 points off 5th place!  They're named after Jenny Cann and are often seen on social media, such as on Reddit's r/soccer subreddit.</p>
+      <p>The table below gets the latest league standings from the football API <a href="football-data.org">football-data.org</a>.  I use d3 to find the maximum and minimum number of points at the moment in the league.  This helps me make an array which can make the table below.  We have a row for every point position from top to bottom.  In each row I add a chip for each team name.</p>
+      
+
+
+      <table>
+  <tr>
+    <th>Points</th>
+    <th>Teams</th>
+  </tr>
+  <tr v-for="(x,i) in PL" :key="i">
+    <td>{{x.points}}</td>
+    <td>  <v-chip
+      class="ma-2"
+      color="red"
+      v-for="p in x.teams" :key="p"
+      label
+      text-color="white"
+    >
+      
+      {{p}}
+    </v-chip></td>
+  </tr>
+  </table>
+      
+
+      
+      
+      </div>
 </div>
 
 
