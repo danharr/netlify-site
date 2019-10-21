@@ -2,7 +2,7 @@
  <v-app id="inspire">
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-    
+    <h1>Dan Harrington</h1>
       <v-card class="posts" v-for="x in posts" :key="x.link" >
         <div style="display:flex;">
         <v-card-title style="color:#1976d2 ;" class="headline"><a style="text-decoration: none;" :href="x.link">{{x.title}}</a></v-card-title>
@@ -110,5 +110,8 @@ margin:15px;
 
 
 }
+
+
+
 
 </style>
