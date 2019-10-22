@@ -14,11 +14,11 @@
       between teams in the league table.  Perhaps your team are in 6th place but they're 20 points off 5th place!  They're named after Jenny Cann and are often seen on social media, such as on Reddit's r/soccer subreddit.</p>
       <p>The table below gets the latest league standings from the football API <a href="football-data.org">football-data.org</a>.  I use d3 to find the maximum and minimum number of points at the moment in the league.  This helps me make an array which can make the table below.  We have a row for every point position from top to bottom.  In each row I add a chip for each team name.</p>
 
-      <p>Update:  I've now added the option to toggle league so you can see an alternative/cann table for France's Ligue 1 too</p>
+      <p>Update:  I've now added the option to toggle league so you can see an alternative/cann table for France's Ligue 1 & the English Champuionship too</p>
  
  <v-radio-group v-model="league">
       <v-radio
-        v-for="n in ['Ligue 1','Premier League']"
+        v-for="n in ['Ligue 1','Premier League','English Championship']"
         :key="n"
         :label="n"
         :value="n"
@@ -81,6 +81,7 @@ export default {
     return {
      PL:null,
      FL1:null,
+     ELC:null,
      league:'Premier League'
     }
   },
@@ -145,6 +146,36 @@ this.FL1 = prem.reverse();
       
       )
 
+
+          axios
+      .get('https://api.football-data.org/v2/competitions/ELC/standings', { headers: { 'X-Auth-Token': '1a69e76a83a148e8bf152ab165cf44f6' } })
+      .then(response => {
+
+ var t = response.data.standings[0].table;
+
+var z = {};
+
+var max = d3.max(t, function(d) { return +d.points;} );
+var min = d3.min(t, function(d) { return +d.points;} );
+var i;
+for (i = min; i <= max; i++) { 
+  z[i]=[];
+};
+
+t.forEach(function(d){z[d.points].push(d.team.name) });
+var prem = [];
+Object.keys(z).forEach(function(key,index) {
+    prem.push({teams:z[key],points:key});
+});
+
+this.ELC = prem.reverse();
+  
+      }
+      
+      
+      
+      )
+
   },
   computed: {
     epl: function () {
@@ -155,6 +186,10 @@ this.FL1 = prem.reverse();
        if(this.league === 'Premier League')
 
 {return this.PL}
+
+else if (this.league === 'English Championship')
+
+{return this.ELC}}
 
 else if (this.league === 'Ligue 1')
 
