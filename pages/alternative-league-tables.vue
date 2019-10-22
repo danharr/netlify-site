@@ -189,7 +189,7 @@ this.ELC = prem.reverse();
 
 else if (this.league === 'English Championship')
 
-{return this.ELC}}
+{return this.ELC}
 
 else if (this.league === 'Ligue 1')
 
