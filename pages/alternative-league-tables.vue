@@ -8,7 +8,7 @@
 
 
       <div class="post">
-      {{selected}}
+      
      
       <p>The alternative league tables shown below (also known as <a href="https://canntables.com/">Cann Tables</a>, more see <a href="http://www.sportsvisualized.com/">here</a>) are a great way of showing the gaps 
       between teams in the league table.  Perhaps your team are in 6th place but they're 20 points off 5th place!  They're named after Jenny Cann and are often seen on social media, such as on Reddit's r/soccer subreddit.</p>
