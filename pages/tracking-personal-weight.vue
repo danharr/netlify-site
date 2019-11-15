@@ -117,6 +117,7 @@ export default {
 mounted() {
 
       axios
+      //.get('/weight.json')
       .get('https://danharrington.netlify.com/weight.json')
       .then(response => {
         var x = response.data
@@ -137,7 +138,7 @@ var parseTime = d3.timeParse("%d-%b-%Y");
 var margin = {top: 20, right: 15, bottom: 25, left: 25};
 
 
-var dWidth = d3.select('#viz')["_parents"][0].clientWidth-200;
+var dWidth = +d3.select('#viz').style('width').slice(0, -2);
 
 
 var width =     dWidth - margin.left - margin.right;
@@ -205,7 +206,7 @@ upd_yaxis:function(){
 var parseTime = d3.timeParse("%d-%b-%Y");
   
 var margin = {top: 20, right: 15, bottom: 25, left: 25};
-var dWidth = d3.select('#viz')["_parents"][0].clientWidth-200;
+var dWidth = +d3.select('#viz').style('width').slice(0, -2);
 var width =     dWidth - margin.left - margin.right;
 var height =    600 - margin.top - margin.bottom;
 
