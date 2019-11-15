@@ -80,7 +80,7 @@ export default {
 
   beforeMount () {
     axios
-      .get('posts.json')
+      .get('https://danharrington.netlify.com/posts.json')
       .then(response => {
         var x = response.data
         this.posts = x

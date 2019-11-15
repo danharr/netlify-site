@@ -479,7 +479,7 @@ export default {
       })
 
     axios
-      .get('/standings.json')
+      .get('https://danharrington.netlify.com/standings.json')
       .then(response => {
         this.standings = response.data
       })

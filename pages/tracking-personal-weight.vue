@@ -17,7 +17,7 @@
       <div class="post">
       
 
-<div id="viz">
+<div id="viz" width="100%">
 
 
   </div>
@@ -117,7 +117,7 @@ export default {
 mounted() {
 
       axios
-      .get('weight.json')
+      .get('https://danharrington.netlify.com/weight.json')
       .then(response => {
         var x = response.data
 
@@ -136,7 +136,11 @@ var parseTime = d3.timeParse("%d-%b-%Y");
 
 var margin = {top: 20, right: 15, bottom: 25, left: 25};
 
-var width =     1400 - margin.left - margin.right;
+
+var dWidth = d3.select('#viz')["_parents"][0].clientWidth-200;
+
+
+var width =     dWidth - margin.left - margin.right;
 var height =    600 - margin.top - margin.bottom;
 
 var svg = d3.select('#viz').append("svg")
@@ -201,8 +205,8 @@ upd_yaxis:function(){
 var parseTime = d3.timeParse("%d-%b-%Y");
   
 var margin = {top: 20, right: 15, bottom: 25, left: 25};
-
-var width =     1400 - margin.left - margin.right;
+var dWidth = d3.select('#viz')["_parents"][0].clientWidth-200;
+var width =     dWidth - margin.left - margin.right;
 var height =    600 - margin.top - margin.bottom;
 
 var yScale = d3.scaleLinear().range([height, 0]);
