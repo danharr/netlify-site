@@ -1,0 +1,1922 @@
+[
+    {
+      "Date": "24-May-2014",
+      "pounds": 191.48,
+      "kg": 86.86,
+      "leanlb": 152.96,
+      "leankg": 69.38,
+      "fatlb": 38.53,
+      "fatkg": 17.48,
+      "fatpercent": 20.12
+    },
+    {
+      "Date": "25-May-2014",
+      "pounds": 193.51,
+      "kg": 87.78,
+      "leanlb": 154.28,
+      "leankg": 69.98,
+      "fatlb": 39.23,
+      "fatkg": 17.8,
+      "fatpercent": 20.27
+    },
+    {
+      "Date": "26-May-2014",
+      "pounds": 193.35,
+      "kg": 87.7,
+      "leanlb": 155.07,
+      "leankg": 70.34,
+      "fatlb": 38.27,
+      "fatkg": 17.36,
+      "fatpercent": 19.79
+    },
+    {
+      "Date": "27-May-2014",
+      "pounds": 189.11,
+      "kg": 85.78,
+      "leanlb": 155.82,
+      "leankg": 70.68,
+      "fatlb": 33.29,
+      "fatkg": 15.1,
+      "fatpercent": 17.61
+    },
+    {
+      "Date": "28-May-2014",
+      "pounds": 194.26,
+      "kg": 88.11,
+      "leanlb": 157.43,
+      "leankg": 71.41,
+      "fatlb": 36.83,
+      "fatkg": 16.7,
+      "fatpercent": 18.96
+    },
+    {
+      "Date": "29-May-2014",
+      "pounds": 192.83,
+      "kg": 87.47,
+      "leanlb": 154.11,
+      "leankg": 69.9,
+      "fatlb": 38.72,
+      "fatkg": 17.56,
+      "fatpercent": 20.08
+    },
+    {
+      "Date": "31-May-2014",
+      "pounds": 200.48,
+      "kg": 90.94,
+      "leanlb": 161.36,
+      "leankg": 73.19,
+      "fatlb": 39.12,
+      "fatkg": 17.75,
+      "fatpercent": 19.51
+    },
+    {
+      "Date": "02-Jun-2014",
+      "pounds": 195.48,
+      "kg": 88.67,
+      "leanlb": 159.35,
+      "leankg": 72.28,
+      "fatlb": 36.13,
+      "fatkg": 16.39,
+      "fatpercent": 18.48
+    },
+    {
+      "Date": "03-Jun-2014",
+      "pounds": 193.78,
+      "kg": 87.9,
+      "leanlb": 156.78,
+      "leankg": 71.11,
+      "fatlb": 37,
+      "fatkg": 16.78,
+      "fatpercent": 19.09
+    },
+    {
+      "Date": "05-Jun-2014",
+      "pounds": 191.6,
+      "kg": 86.91,
+      "leanlb": 153.06,
+      "leankg": 69.43,
+      "fatlb": 38.54,
+      "fatkg": 17.48,
+      "fatpercent": 20.11
+    },
+    {
+      "Date": "08-Jun-2014",
+      "pounds": 194.76,
+      "kg": 88.34,
+      "leanlb": 157.4,
+      "leankg": 71.4,
+      "fatlb": 37.36,
+      "fatkg": 16.95,
+      "fatpercent": 19.18
+    },
+    {
+      "Date": "16-Jun-2014",
+      "pounds": 193.45,
+      "kg": 87.75,
+      "leanlb": 155.51,
+      "leankg": 70.54,
+      "fatlb": 37.95,
+      "fatkg": 17.21,
+      "fatpercent": 19.61
+    },
+    {
+      "Date": "17-Jun-2014",
+      "pounds": 192.98,
+      "kg": 87.54,
+      "leanlb": 155.21,
+      "leankg": 70.4,
+      "fatlb": 37.77,
+      "fatkg": 17.13,
+      "fatpercent": 19.57
+    },
+    {
+      "Date": "21-Jun-2014",
+      "pounds": 194.56,
+      "kg": 88.25,
+      "leanlb": 154.53,
+      "leankg": 70.09,
+      "fatlb": 40.04,
+      "fatkg": 18.16,
+      "fatpercent": 20.58
+    },
+    {
+      "Date": "25-Jun-2014",
+      "pounds": 195.37,
+      "kg": 88.62,
+      "leanlb": 159.82,
+      "leankg": 72.49,
+      "fatlb": 35.56,
+      "fatkg": 16.13,
+      "fatpercent": 18.2
+    },
+    {
+      "Date": "04-Jul-2014",
+      "pounds": 195.09,
+      "kg": 88.49,
+      "leanlb": 159.37,
+      "leankg": 72.29,
+      "fatlb": 35.72,
+      "fatkg": 16.2,
+      "fatpercent": 18.31
+    },
+    {
+      "Date": "13-Jul-2014",
+      "pounds": 192.94,
+      "kg": 87.51,
+      "leanlb": 150.96,
+      "leankg": 68.48,
+      "fatlb": 41.97,
+      "fatkg": 19.04,
+      "fatpercent": 21.75
+    },
+    {
+      "Date": "23-Jul-2014",
+      "pounds": 196.22,
+      "kg": 89.01,
+      "leanlb": 159.2,
+      "leankg": 72.21,
+      "fatlb": 37.02,
+      "fatkg": 16.79,
+      "fatpercent": 18.87
+    },
+    {
+      "Date": "26-Jul-2014",
+      "pounds": 195.37,
+      "kg": 88.62,
+      "leanlb": 156.43,
+      "leankg": 70.96,
+      "fatlb": 38.94,
+      "fatkg": 17.67,
+      "fatpercent": 19.93
+    },
+    {
+      "Date": "29-Jul-2014",
+      "pounds": 195.37,
+      "kg": 88.62,
+      "leanlb": 158.76,
+      "leankg": 72.01,
+      "fatlb": 36.61,
+      "fatkg": 16.61,
+      "fatpercent": 18.74
+    },
+    {
+      "Date": "01-Aug-2014",
+      "pounds": 198.68,
+      "kg": 90.12,
+      "leanlb": 155.1,
+      "leankg": 70.35,
+      "fatlb": 43.58,
+      "fatkg": 19.77,
+      "fatpercent": 21.94
+    },
+    {
+      "Date": "02-Aug-2014",
+      "pounds": 197.52,
+      "kg": 89.6,
+      "leanlb": 155.92,
+      "leankg": 70.72,
+      "fatlb": 41.6,
+      "fatkg": 18.87,
+      "fatpercent": 21.06
+    },
+    {
+      "Date": "09-Aug-2014",
+      "pounds": 199.9,
+      "kg": 90.67,
+      "leanlb": 159.55,
+      "leankg": 72.37,
+      "fatlb": 40.35,
+      "fatkg": 18.3,
+      "fatpercent": 20.18
+    },
+    {
+      "Date": "17-Aug-2014",
+      "pounds": 197.61,
+      "kg": 89.64,
+      "leanlb": 156.56,
+      "leankg": 71.01,
+      "fatlb": 41.05,
+      "fatkg": 18.62,
+      "fatpercent": 20.78
+    },
+    {
+      "Date": "19-Aug-2014",
+      "pounds": 194.79,
+      "kg": 88.36,
+      "leanlb": 152.41,
+      "leankg": 69.13,
+      "fatlb": 42.38,
+      "fatkg": 19.22,
+      "fatpercent": 21.76
+    },
+    {
+      "Date": "22-Aug-2014",
+      "pounds": 195.75,
+      "kg": 88.79,
+      "leanlb": 154.08,
+      "leankg": 69.89,
+      "fatlb": 41.67,
+      "fatkg": 18.9,
+      "fatpercent": 21.29
+    },
+    {
+      "Date": "24-Aug-2014",
+      "pounds": 197.56,
+      "kg": 89.61,
+      "leanlb": 157.89,
+      "leankg": 71.62,
+      "fatlb": 39.68,
+      "fatkg": 18,
+      "fatpercent": 20.08
+    },
+    {
+      "Date": "27-Aug-2014",
+      "pounds": 195.73,
+      "kg": 88.78,
+      "leanlb": 155.38,
+      "leankg": 70.48,
+      "fatlb": 40.36,
+      "fatkg": 18.31,
+      "fatpercent": 20.62
+    },
+    {
+      "Date": "29-Aug-2014",
+      "pounds": 196.97,
+      "kg": 89.35,
+      "leanlb": 158.08,
+      "leankg": 71.7,
+      "fatlb": 38.9,
+      "fatkg": 17.64,
+      "fatpercent": 19.75
+    },
+    {
+      "Date": "01-Sep-2014",
+      "pounds": 195.88,
+      "kg": 88.85,
+      "leanlb": 153.66,
+      "leankg": 69.7,
+      "fatlb": 42.21,
+      "fatkg": 19.15,
+      "fatpercent": 21.55
+    },
+    {
+      "Date": "04-Sep-2014",
+      "pounds": 195.49,
+      "kg": 88.68,
+      "leanlb": 153.49,
+      "leankg": 69.62,
+      "fatlb": 42,
+      "fatkg": 19.05,
+      "fatpercent": 21.49
+    },
+    {
+      "Date": "06-Sep-2014",
+      "pounds": 196.96,
+      "kg": 89.34,
+      "leanlb": 160.02,
+      "leankg": 72.58,
+      "fatlb": 36.94,
+      "fatkg": 16.76,
+      "fatpercent": 18.76
+    },
+    {
+      "Date": "11-Sep-2014",
+      "pounds": 194.62,
+      "kg": 88.28,
+      "leanlb": 159.09,
+      "leankg": 72.16,
+      "fatlb": 35.53,
+      "fatkg": 16.12,
+      "fatpercent": 18.26
+    },
+    {
+      "Date": "13-Sep-2014",
+      "pounds": 196.33,
+      "kg": 89.05,
+      "leanlb": 158.14,
+      "leankg": 71.73,
+      "fatlb": 38.18,
+      "fatkg": 17.32,
+      "fatpercent": 19.45
+    },
+    {
+      "Date": "16-Sep-2014",
+      "pounds": 194.33,
+      "kg": 88.15,
+      "leanlb": 157.21,
+      "leankg": 71.31,
+      "fatlb": 37.12,
+      "fatkg": 16.84,
+      "fatpercent": 19.1
+    },
+    {
+      "Date": "17-Sep-2014",
+      "pounds": 195.07,
+      "kg": 88.48,
+      "leanlb": 156.4,
+      "leankg": 70.94,
+      "fatlb": 38.67,
+      "fatkg": 17.54,
+      "fatpercent": 19.83
+    },
+    {
+      "Date": "18-Sep-2014",
+      "pounds": 194.37,
+      "kg": 88.17,
+      "leanlb": 157.22,
+      "leankg": 71.31,
+      "fatlb": 37.15,
+      "fatkg": 16.85,
+      "fatpercent": 19.11
+    },
+    {
+      "Date": "23-Sep-2014",
+      "pounds": 194.93,
+      "kg": 88.42,
+      "leanlb": 155.67,
+      "leankg": 70.61,
+      "fatlb": 39.26,
+      "fatkg": 17.81,
+      "fatpercent": 20.14
+    },
+    {
+      "Date": "08-Oct-2014",
+      "pounds": 193.41,
+      "kg": 87.73,
+      "leanlb": 156.51,
+      "leankg": 70.99,
+      "fatlb": 36.91,
+      "fatkg": 16.74,
+      "fatpercent": 19.08
+    },
+    {
+      "Date": "15-Oct-2014",
+      "pounds": 193.85,
+      "kg": 87.93,
+      "leanlb": 155.7,
+      "leankg": 70.63,
+      "fatlb": 38.15,
+      "fatkg": 17.3,
+      "fatpercent": 19.68
+    },
+    {
+      "Date": "18-Oct-2014",
+      "pounds": 195.56,
+      "kg": 88.7,
+      "leanlb": 153.22,
+      "leankg": 69.5,
+      "fatlb": 42.34,
+      "fatkg": 19.2,
+      "fatpercent": 21.65
+    },
+    {
+      "Date": "20-Nov-2014",
+      "pounds": 196.28,
+      "kg": 89.03,
+      "leanlb": 157.91,
+      "leankg": 71.63,
+      "fatlb": 38.37,
+      "fatkg": 17.4,
+      "fatpercent": 19.55
+    },
+    {
+      "Date": "23-Nov-2014",
+      "pounds": 195.92,
+      "kg": 88.87,
+      "leanlb": 152.92,
+      "leankg": 69.36,
+      "fatlb": 43,
+      "fatkg": 19.5,
+      "fatpercent": 21.95
+    },
+    {
+      "Date": "26-Nov-2014",
+      "pounds": 195.76,
+      "kg": 88.8,
+      "leanlb": 156.1,
+      "leankg": 70.81,
+      "fatlb": 39.66,
+      "fatkg": 17.99,
+      "fatpercent": 20.26
+    },
+    {
+      "Date": "28-Nov-2014",
+      "pounds": 197.14,
+      "kg": 89.42,
+      "leanlb": 154.5,
+      "leankg": 70.08,
+      "fatlb": 42.64,
+      "fatkg": 19.34,
+      "fatpercent": 21.63
+    },
+    {
+      "Date": "01-Dec-2014",
+      "pounds": 191.55,
+      "kg": 86.89,
+      "leanlb": 153.49,
+      "leankg": 69.62,
+      "fatlb": 38.05,
+      "fatkg": 17.26,
+      "fatpercent": 19.87
+    },
+    {
+      "Date": "02-Dec-2014",
+      "pounds": 193.07,
+      "kg": 87.58,
+      "leanlb": 152.8,
+      "leankg": 69.31,
+      "fatlb": 40.27,
+      "fatkg": 18.27,
+      "fatpercent": 20.86
+    },
+    {
+      "Date": "02-Dec-2014",
+      "pounds": 194.04,
+      "kg": 88.02,
+      "leanlb": 155.98,
+      "leankg": 70.75,
+      "fatlb": 38.06,
+      "fatkg": 17.27,
+      "fatpercent": 19.62
+    },
+    {
+      "Date": "04-Dec-2014",
+      "pounds": 193.65,
+      "kg": 87.84,
+      "leanlb": 153.77,
+      "leankg": 69.75,
+      "fatlb": 39.87,
+      "fatkg": 18.09,
+      "fatpercent": 20.59
+    },
+    {
+      "Date": "07-Dec-2014",
+      "pounds": 196.35,
+      "kg": 89.06,
+      "leanlb": 155.64,
+      "leankg": 70.6,
+      "fatlb": 40.72,
+      "fatkg": 18.47,
+      "fatpercent": 20.74
+    },
+    {
+      "Date": "07-Dec-2014",
+      "pounds": 196.35,
+      "kg": 89.06,
+      "leanlb": 155.64,
+      "leankg": 70.6,
+      "fatlb": 40.72,
+      "fatkg": 18.47,
+      "fatpercent": 20.74
+    },
+    {
+      "Date": "14-Dec-2014",
+      "pounds": 196.77,
+      "kg": 89.25,
+      "leanlb": 153.08,
+      "leankg": 69.44,
+      "fatlb": 43.69,
+      "fatkg": 19.82,
+      "fatpercent": 22.21
+    },
+    {
+      "Date": "21-Dec-2014",
+      "pounds": 198.08,
+      "kg": 89.85,
+      "leanlb": 157.58,
+      "leankg": 71.48,
+      "fatlb": 40.49,
+      "fatkg": 18.37,
+      "fatpercent": 20.44
+    },
+    {
+      "Date": "23-Dec-2014",
+      "pounds": 196.91,
+      "kg": 89.32,
+      "leanlb": 153.1,
+      "leankg": 69.44,
+      "fatlb": 43.81,
+      "fatkg": 19.87,
+      "fatpercent": 22.25
+    },
+    {
+      "Date": "29-Dec-2014",
+      "pounds": 194.11,
+      "kg": 88.05,
+      "leanlb": 151.16,
+      "leankg": 68.57,
+      "fatlb": 42.95,
+      "fatkg": 19.48,
+      "fatpercent": 22.13
+    },
+    {
+      "Date": "02-Jan-2015",
+      "pounds": 196.97,
+      "kg": 89.34,
+      "leanlb": 155.15,
+      "leankg": 70.37,
+      "fatlb": 41.82,
+      "fatkg": 18.97,
+      "fatpercent": 21.23
+    },
+    {
+      "Date": "09-Jan-2015",
+      "pounds": 196.27,
+      "kg": 89.03,
+      "leanlb": 155.42,
+      "leankg": 70.5,
+      "fatlb": 40.85,
+      "fatkg": 18.53,
+      "fatpercent": 20.81
+    },
+    {
+      "Date": "13-Jan-2015",
+      "pounds": 198.03,
+      "kg": 89.82,
+      "leanlb": 159.55,
+      "leankg": 72.37,
+      "fatlb": 38.48,
+      "fatkg": 17.45,
+      "fatpercent": 19.43
+    },
+    {
+      "Date": "18-Jan-2015",
+      "pounds": 194.21,
+      "kg": 88.09,
+      "leanlb": 155.99,
+      "leankg": 70.76,
+      "fatlb": 38.22,
+      "fatkg": 17.34,
+      "fatpercent": 19.68
+    },
+    {
+      "Date": "19-Jan-2015",
+      "pounds": 193.4,
+      "kg": 87.73,
+      "leanlb": 155.02,
+      "leankg": 70.32,
+      "fatlb": 38.39,
+      "fatkg": 17.41,
+      "fatpercent": 19.85
+    },
+    {
+      "Date": "20-Jan-2015",
+      "pounds": 193.38,
+      "kg": 87.71,
+      "leanlb": 153.84,
+      "leankg": 69.78,
+      "fatlb": 39.53,
+      "fatkg": 17.93,
+      "fatpercent": 20.44
+    },
+    {
+      "Date": "21-Jan-2015",
+      "pounds": 194.32,
+      "kg": 88.14,
+      "leanlb": 158.57,
+      "leankg": 71.92,
+      "fatlb": 35.76,
+      "fatkg": 16.22,
+      "fatpercent": 18.4
+    },
+    {
+      "Date": "23-Jan-2015",
+      "pounds": 195.24,
+      "kg": 88.56,
+      "leanlb": 156.96,
+      "leankg": 71.2,
+      "fatlb": 38.28,
+      "fatkg": 17.36,
+      "fatpercent": 19.61
+    },
+    {
+      "Date": "24-Jan-2015",
+      "pounds": 193.55,
+      "kg": 87.8,
+      "leanlb": 157.06,
+      "leankg": 71.24,
+      "fatlb": 36.49,
+      "fatkg": 16.55,
+      "fatpercent": 18.85
+    },
+    {
+      "Date": "27-Jan-2015",
+      "pounds": 197.26,
+      "kg": 89.48,
+      "leanlb": 155.38,
+      "leankg": 70.48,
+      "fatlb": 41.88,
+      "fatkg": 19,
+      "fatpercent": 21.23
+    },
+    {
+      "Date": "30-Jan-2015",
+      "pounds": 192.82,
+      "kg": 87.46,
+      "leanlb": 153.2,
+      "leankg": 69.49,
+      "fatlb": 39.62,
+      "fatkg": 17.97,
+      "fatpercent": 20.55
+    },
+    {
+      "Date": "31-Jan-2015",
+      "pounds": 194.8,
+      "kg": 88.36,
+      "leanlb": 157.69,
+      "leankg": 71.53,
+      "fatlb": 37.11,
+      "fatkg": 16.84,
+      "fatpercent": 19.05
+    },
+    {
+      "Date": "02-Feb-2015",
+      "pounds": 193.96,
+      "kg": 87.98,
+      "leanlb": 152.8,
+      "leankg": 69.31,
+      "fatlb": 41.16,
+      "fatkg": 18.67,
+      "fatpercent": 21.22
+    },
+    {
+      "Date": "03-Feb-2015",
+      "pounds": 194.22,
+      "kg": 88.1,
+      "leanlb": 154.21,
+      "leankg": 69.95,
+      "fatlb": 40.01,
+      "fatkg": 18.15,
+      "fatpercent": 20.6
+    },
+    {
+      "Date": "06-Feb-2015",
+      "pounds": 194.03,
+      "kg": 88.01,
+      "leanlb": 153.32,
+      "leankg": 69.54,
+      "fatlb": 40.71,
+      "fatkg": 18.47,
+      "fatpercent": 20.98
+    },
+    {
+      "Date": "07-Feb-2015",
+      "pounds": 193.84,
+      "kg": 87.92,
+      "leanlb": 154.45,
+      "leankg": 70.06,
+      "fatlb": 39.39,
+      "fatkg": 17.87,
+      "fatpercent": 20.32
+    },
+    {
+      "Date": "13-Feb-2015",
+      "pounds": 193.33,
+      "kg": 87.69,
+      "leanlb": 151.81,
+      "leankg": 68.86,
+      "fatlb": 41.51,
+      "fatkg": 18.83,
+      "fatpercent": 21.47
+    },
+    {
+      "Date": "15-Feb-2015",
+      "pounds": 194.86,
+      "kg": 88.39,
+      "leanlb": 155.3,
+      "leankg": 70.44,
+      "fatlb": 39.57,
+      "fatkg": 17.95,
+      "fatpercent": 20.3
+    },
+    {
+      "Date": "17-Feb-2015",
+      "pounds": 193.01,
+      "kg": 87.55,
+      "leanlb": 156.22,
+      "leankg": 70.86,
+      "fatlb": 36.79,
+      "fatkg": 16.69,
+      "fatpercent": 19.06
+    },
+    {
+      "Date": "19-Feb-2015",
+      "pounds": 192.24,
+      "kg": 87.2,
+      "leanlb": 154.11,
+      "leankg": 69.9,
+      "fatlb": 38.13,
+      "fatkg": 17.3,
+      "fatpercent": 19.83
+    },
+    {
+      "Date": "21-Feb-2015",
+      "pounds": 192.41,
+      "kg": 87.28,
+      "leanlb": 152.43,
+      "leankg": 69.14,
+      "fatlb": 39.98,
+      "fatkg": 18.13,
+      "fatpercent": 20.78
+    },
+    {
+      "Date": "22-Feb-2015",
+      "pounds": 192.33,
+      "kg": 87.24,
+      "leanlb": 153.23,
+      "leankg": 69.51,
+      "fatlb": 39.1,
+      "fatkg": 17.74,
+      "fatpercent": 20.33
+    },
+    {
+      "Date": "01-Mar-2015",
+      "pounds": 193.35,
+      "kg": 87.7,
+      "leanlb": 153.39,
+      "leankg": 69.58,
+      "fatlb": 39.96,
+      "fatkg": 18.13,
+      "fatpercent": 20.67
+    },
+    {
+      "Date": "17-Mar-2015",
+      "pounds": 191.35,
+      "kg": 86.8,
+      "leanlb": 156.43,
+      "leankg": 70.96,
+      "fatlb": 34.92,
+      "fatkg": 15.84,
+      "fatpercent": 18.25
+    },
+    {
+      "Date": "21-Mar-2015",
+      "pounds": 192.19,
+      "kg": 87.18,
+      "leanlb": 154.16,
+      "leankg": 69.93,
+      "fatlb": 38.03,
+      "fatkg": 17.25,
+      "fatpercent": 19.79
+    },
+    {
+      "Date": "31-Mar-2015",
+      "pounds": 191.63,
+      "kg": 86.92,
+      "leanlb": 155.78,
+      "leankg": 70.66,
+      "fatlb": 35.85,
+      "fatkg": 16.26,
+      "fatpercent": 18.71
+    },
+    {
+      "Date": "12-Apr-2015",
+      "pounds": 190.93,
+      "kg": 86.6,
+      "leanlb": 150.06,
+      "leankg": 68.07,
+      "fatlb": 40.87,
+      "fatkg": 18.54,
+      "fatpercent": 21.41
+    },
+    {
+      "Date": "19-Apr-2015",
+      "pounds": 192.81,
+      "kg": 87.46,
+      "leanlb": 152.32,
+      "leankg": 69.09,
+      "fatlb": 40.49,
+      "fatkg": 18.36,
+      "fatpercent": 21
+    },
+    {
+      "Date": "07-May-2015",
+      "pounds": 195.78,
+      "kg": 88.8,
+      "leanlb": 158.17,
+      "leankg": 71.75,
+      "fatlb": 37.6,
+      "fatkg": 17.06,
+      "fatpercent": 19.21
+    },
+    {
+      "Date": "25-May-2015",
+      "pounds": 194.14,
+      "kg": 88.06,
+      "leanlb": 155.89,
+      "leankg": 70.71,
+      "fatlb": 38.25,
+      "fatkg": 17.35,
+      "fatpercent": 19.7
+    },
+    {
+      "Date": "07-Jun-2015",
+      "pounds": 194.11,
+      "kg": 88.05,
+      "leanlb": 152.75,
+      "leankg": 69.29,
+      "fatlb": 41.36,
+      "fatkg": 18.76,
+      "fatpercent": 21.31
+    },
+    {
+      "Date": "01-Jul-2015",
+      "pounds": 194.52,
+      "kg": 88.23,
+      "leanlb": 158.35,
+      "leankg": 71.83,
+      "fatlb": 36.17,
+      "fatkg": 16.41,
+      "fatpercent": 18.59
+    },
+    {
+      "Date": "07-Jul-2015",
+      "pounds": 195.14,
+      "kg": 88.51,
+      "leanlb": 156.05,
+      "leankg": 70.78,
+      "fatlb": 39.09,
+      "fatkg": 17.73,
+      "fatpercent": 20.03
+    },
+    {
+      "Date": "11-Jul-2015",
+      "pounds": 193.21,
+      "kg": 87.64,
+      "leanlb": 150.78,
+      "leankg": 68.39,
+      "fatlb": 42.43,
+      "fatkg": 19.25,
+      "fatpercent": 21.96
+    },
+    {
+      "Date": "13-Sep-2015",
+      "pounds": 201.12,
+      "kg": 91.23,
+      "leanlb": 153.99,
+      "leankg": 69.85,
+      "fatlb": 47.13,
+      "fatkg": 21.38,
+      "fatpercent": 23.43
+    },
+    {
+      "Date": "21-Sep-2015",
+      "pounds": 196.96,
+      "kg": 89.34,
+      "leanlb": 155.77,
+      "leankg": 70.66,
+      "fatlb": 41.19,
+      "fatkg": 18.68,
+      "fatpercent": 20.91
+    },
+    {
+      "Date": "17-Oct-2015",
+      "pounds": 194.55,
+      "kg": 88.25,
+      "leanlb": 151.82,
+      "leankg": 68.86,
+      "fatlb": 42.73,
+      "fatkg": 19.38,
+      "fatpercent": 21.96
+    },
+    {
+      "Date": "25-Oct-2015",
+      "pounds": 197.42,
+      "kg": 89.55,
+      "leanlb": 157.29,
+      "leankg": 71.35,
+      "fatlb": 40.12,
+      "fatkg": 18.2,
+      "fatpercent": 20.33
+    },
+    {
+      "Date": "26-Nov-2015",
+      "pounds": 198.65,
+      "kg": 90.11,
+      "leanlb": 158.6,
+      "leankg": 71.94,
+      "fatlb": 40.04,
+      "fatkg": 18.16,
+      "fatpercent": 20.16
+    },
+    {
+      "Date": "04-Dec-2015",
+      "pounds": 193.59,
+      "kg": 87.81,
+      "leanlb": 155.45,
+      "leankg": 70.51,
+      "fatlb": 38.15,
+      "fatkg": 17.3,
+      "fatpercent": 19.7
+    },
+    {
+      "Date": "14-Dec-2015",
+      "pounds": 202.79,
+      "kg": 91.98,
+      "leanlb": 157.55,
+      "leankg": 71.46,
+      "fatlb": 45.24,
+      "fatkg": 20.52,
+      "fatpercent": 22.31
+    },
+    {
+      "Date": "19-Dec-2015",
+      "pounds": 199.07,
+      "kg": 90.3,
+      "leanlb": 155.85,
+      "leankg": 70.69,
+      "fatlb": 43.22,
+      "fatkg": 19.6,
+      "fatpercent": 21.71
+    },
+    {
+      "Date": "27-Dec-2015",
+      "pounds": 200.21,
+      "kg": 90.81,
+      "leanlb": 158.07,
+      "leankg": 71.7,
+      "fatlb": 42.14,
+      "fatkg": 19.11,
+      "fatpercent": 21.05
+    },
+    {
+      "Date": "01-Jan-2016",
+      "pounds": 203.91,
+      "kg": 92.49,
+      "leanlb": 157.58,
+      "leankg": 71.48,
+      "fatlb": 46.33,
+      "fatkg": 21.02,
+      "fatpercent": 22.72
+    },
+    {
+      "Date": "04-Jan-2016",
+      "pounds": 202.64,
+      "kg": 91.92,
+      "leanlb": 155.15,
+      "leankg": 70.38,
+      "fatlb": 47.49,
+      "fatkg": 21.54,
+      "fatpercent": 23.44
+    },
+    {
+      "Date": "12-Jan-2016",
+      "pounds": 202.13,
+      "kg": 91.68,
+      "leanlb": 155.83,
+      "leankg": 70.68,
+      "fatlb": 46.3,
+      "fatkg": 21,
+      "fatpercent": 22.91
+    },
+    {
+      "Date": "15-Jan-2016",
+      "pounds": 203.81,
+      "kg": 92.45,
+      "leanlb": 158.15,
+      "leankg": 71.74,
+      "fatlb": 45.66,
+      "fatkg": 20.71,
+      "fatpercent": 22.41
+    },
+    {
+      "Date": "31-Jan-2016",
+      "pounds": 204.05,
+      "kg": 92.56,
+      "leanlb": 159.09,
+      "leankg": 72.16,
+      "fatlb": 44.96,
+      "fatkg": 20.39,
+      "fatpercent": 22.03
+    },
+    {
+      "Date": "07-Feb-2016",
+      "pounds": 201.04,
+      "kg": 91.19,
+      "leanlb": 154.73,
+      "leankg": 70.19,
+      "fatlb": 46.31,
+      "fatkg": 21.01,
+      "fatpercent": 23.03
+    },
+    {
+      "Date": "25-Feb-2016",
+      "pounds": 198.93,
+      "kg": 90.23,
+      "leanlb": 158.44,
+      "leankg": 71.87,
+      "fatlb": 40.49,
+      "fatkg": 18.37,
+      "fatpercent": 20.36
+    },
+    {
+      "Date": "27-Feb-2016",
+      "pounds": 197.1,
+      "kg": 89.4,
+      "leanlb": 156.68,
+      "leankg": 71.07,
+      "fatlb": 40.42,
+      "fatkg": 18.34,
+      "fatpercent": 20.51
+    },
+    {
+      "Date": "28-Feb-2016",
+      "pounds": 201.05,
+      "kg": 91.19,
+      "leanlb": 160.62,
+      "leankg": 72.86,
+      "fatlb": 40.42,
+      "fatkg": 18.34,
+      "fatpercent": 20.11
+    },
+    {
+      "Date": "01-Mar-2016",
+      "pounds": 196.61,
+      "kg": 89.18,
+      "leanlb": 153.45,
+      "leankg": 69.61,
+      "fatlb": 43.15,
+      "fatkg": 19.57,
+      "fatpercent": 21.95
+    },
+    {
+      "Date": "01-Mar-2016",
+      "pounds": 196.84,
+      "kg": 89.29,
+      "leanlb": 155.28,
+      "leankg": 70.43,
+      "fatlb": 41.56,
+      "fatkg": 18.85,
+      "fatpercent": 21.12
+    },
+    {
+      "Date": "04-Mar-2016",
+      "pounds": 197.32,
+      "kg": 89.51,
+      "leanlb": 155.04,
+      "leankg": 70.32,
+      "fatlb": 42.29,
+      "fatkg": 19.18,
+      "fatpercent": 21.43
+    },
+    {
+      "Date": "06-Mar-2016",
+      "pounds": 200.58,
+      "kg": 90.98,
+      "leanlb": 161.05,
+      "leankg": 73.05,
+      "fatlb": 39.53,
+      "fatkg": 17.93,
+      "fatpercent": 19.71
+    },
+    {
+      "Date": "07-Mar-2016",
+      "pounds": 197.53,
+      "kg": 89.6,
+      "leanlb": 155.8,
+      "leankg": 70.67,
+      "fatlb": 41.73,
+      "fatkg": 18.93,
+      "fatpercent": 21.13
+    },
+    {
+      "Date": "08-Mar-2016",
+      "pounds": 198.54,
+      "kg": 90.06,
+      "leanlb": 159.51,
+      "leankg": 72.35,
+      "fatlb": 39.03,
+      "fatkg": 17.7,
+      "fatpercent": 19.66
+    },
+    {
+      "Date": "10-Mar-2016",
+      "pounds": 197.9,
+      "kg": 89.77,
+      "leanlb": 157.42,
+      "leankg": 71.41,
+      "fatlb": 40.48,
+      "fatkg": 18.36,
+      "fatpercent": 20.45
+    },
+    {
+      "Date": "11-Mar-2016",
+      "pounds": 197.06,
+      "kg": 89.39,
+      "leanlb": 154.52,
+      "leankg": 70.09,
+      "fatlb": 42.54,
+      "fatkg": 19.29,
+      "fatpercent": 21.59
+    },
+    {
+      "Date": "13-Mar-2016",
+      "pounds": 195.17,
+      "kg": 88.53,
+      "leanlb": 153.05,
+      "leankg": 69.42,
+      "fatlb": 42.12,
+      "fatkg": 19.11,
+      "fatpercent": 21.58
+    },
+    {
+      "Date": "19-Mar-2016",
+      "pounds": 195.04,
+      "kg": 88.47,
+      "leanlb": 155.08,
+      "leankg": 70.34,
+      "fatlb": 39.96,
+      "fatkg": 18.13,
+      "fatpercent": 20.49
+    },
+    {
+      "Date": "20-Mar-2016",
+      "pounds": 197.09,
+      "kg": 89.4,
+      "leanlb": 154.97,
+      "leankg": 70.29,
+      "fatlb": 42.12,
+      "fatkg": 19.11,
+      "fatpercent": 21.37
+    },
+    {
+      "Date": "22-Mar-2016",
+      "pounds": 195.28,
+      "kg": 88.58,
+      "leanlb": 156.09,
+      "leankg": 70.8,
+      "fatlb": 39.19,
+      "fatkg": 17.78,
+      "fatpercent": 20.07
+    },
+    {
+      "Date": "28-Mar-2016",
+      "pounds": 196.23,
+      "kg": 89.01,
+      "leanlb": 159.32,
+      "leankg": 72.27,
+      "fatlb": 36.91,
+      "fatkg": 16.74,
+      "fatpercent": 18.81
+    },
+    {
+      "Date": "31-Mar-2016",
+      "pounds": 193.65,
+      "kg": 87.84,
+      "leanlb": 155.3,
+      "leankg": 70.44,
+      "fatlb": 38.35,
+      "fatkg": 17.4,
+      "fatpercent": 19.8
+    },
+    {
+      "Date": "03-Apr-2016",
+      "pounds": 194.8,
+      "kg": 88.36,
+      "leanlb": 152.87,
+      "leankg": 69.34,
+      "fatlb": 41.93,
+      "fatkg": 19.02,
+      "fatpercent": 21.52
+    },
+    {
+      "Date": "12-Apr-2016",
+      "pounds": 193.14,
+      "kg": 87.61,
+      "leanlb": 154.99,
+      "leankg": 70.3,
+      "fatlb": 38.16,
+      "fatkg": 17.31,
+      "fatpercent": 19.76
+    },
+    {
+      "Date": "16-Apr-2016",
+      "pounds": 193.45,
+      "kg": 87.75,
+      "leanlb": 153.23,
+      "leankg": 69.5,
+      "fatlb": 40.22,
+      "fatkg": 18.25,
+      "fatpercent": 20.79
+    },
+    {
+      "Date": "17-Apr-2016",
+      "pounds": 192.3,
+      "kg": 87.22,
+      "leanlb": 153.11,
+      "leankg": 69.45,
+      "fatlb": 39.18,
+      "fatkg": 17.77,
+      "fatpercent": 20.38
+    },
+    {
+      "Date": "20-Apr-2016",
+      "pounds": 194.17,
+      "kg": 88.08,
+      "leanlb": 156.27,
+      "leankg": 70.89,
+      "fatlb": 37.9,
+      "fatkg": 17.19,
+      "fatpercent": 19.52
+    },
+    {
+      "Date": "21-Apr-2016",
+      "pounds": 195,
+      "kg": 88.45,
+      "leanlb": 155.56,
+      "leankg": 70.56,
+      "fatlb": 39.44,
+      "fatkg": 17.89,
+      "fatpercent": 20.22
+    },
+    {
+      "Date": "23-Apr-2016",
+      "pounds": 193.33,
+      "kg": 87.7,
+      "leanlb": 153.53,
+      "leankg": 69.64,
+      "fatlb": 39.8,
+      "fatkg": 18.05,
+      "fatpercent": 20.59
+    },
+    {
+      "Date": "26-Apr-2016",
+      "pounds": 195.06,
+      "kg": 88.48,
+      "leanlb": 156.35,
+      "leankg": 70.92,
+      "fatlb": 38.71,
+      "fatkg": 17.56,
+      "fatpercent": 19.84
+    },
+    {
+      "Date": "04-May-2016",
+      "pounds": 191.85,
+      "kg": 87.02,
+      "leanlb": 155.51,
+      "leankg": 70.54,
+      "fatlb": 36.35,
+      "fatkg": 16.49,
+      "fatpercent": 18.95
+    },
+    {
+      "Date": "08-May-2016",
+      "pounds": 189.17,
+      "kg": 85.81,
+      "leanlb": 170.91,
+      "leankg": 77.52,
+      "fatlb": 18.26,
+      "fatkg": 8.28,
+      "fatpercent": 9.65
+    },
+    {
+      "Date": "11-May-2016",
+      "pounds": 190.68,
+      "kg": 86.49,
+      "leanlb": 154.52,
+      "leankg": 70.09,
+      "fatlb": 36.16,
+      "fatkg": 16.4,
+      "fatpercent": 18.97
+    },
+    {
+      "Date": "13-May-2016",
+      "pounds": 188.11,
+      "kg": 85.33,
+      "leanlb": 150.49,
+      "leankg": 68.26,
+      "fatlb": 37.62,
+      "fatkg": 17.06,
+      "fatpercent": 20
+    },
+    {
+      "Date": "17-May-2016",
+      "pounds": 187.46,
+      "kg": 85.03,
+      "leanlb": 151.75,
+      "leankg": 68.83,
+      "fatlb": 35.7,
+      "fatkg": 16.2,
+      "fatpercent": 19.05
+    },
+    {
+      "Date": "21-May-2016",
+      "pounds": 190.85,
+      "kg": 86.57,
+      "leanlb": 153.53,
+      "leankg": 69.64,
+      "fatlb": 37.33,
+      "fatkg": 16.93,
+      "fatpercent": 19.56
+    },
+    {
+      "Date": "22-May-2016",
+      "pounds": 190.86,
+      "kg": 86.57,
+      "leanlb": 155.04,
+      "leankg": 70.33,
+      "fatlb": 35.82,
+      "fatkg": 16.25,
+      "fatpercent": 18.77
+    },
+    {
+      "Date": "01-Jun-2016",
+      "pounds": 189.59,
+      "kg": 86,
+      "leanlb": 155.66,
+      "leankg": 70.61,
+      "fatlb": 33.93,
+      "fatkg": 15.39,
+      "fatpercent": 17.9
+    },
+    {
+      "Date": "06-Jun-2016",
+      "pounds": 187.63,
+      "kg": 85.11,
+      "leanlb": 153.14,
+      "leankg": 69.46,
+      "fatlb": 34.49,
+      "fatkg": 15.65,
+      "fatpercent": 18.38
+    },
+    {
+      "Date": "15-Jun-2016",
+      "pounds": 187.71,
+      "kg": 85.14,
+      "leanlb": 152.93,
+      "leankg": 69.37,
+      "fatlb": 34.78,
+      "fatkg": 15.78,
+      "fatpercent": 18.53
+    },
+    {
+      "Date": "24-Jun-2016",
+      "pounds": 187.53,
+      "kg": 85.06,
+      "leanlb": 155.94,
+      "leankg": 70.73,
+      "fatlb": 31.59,
+      "fatkg": 14.33,
+      "fatpercent": 16.85
+    },
+    {
+      "Date": "18-Jul-2016",
+      "pounds": 191.22,
+      "kg": 86.74,
+      "leanlb": 159.04,
+      "leankg": 72.14,
+      "fatlb": 32.18,
+      "fatkg": 14.6,
+      "fatpercent": 16.83
+    },
+    {
+      "Date": "22-Jul-2016",
+      "pounds": 189.98,
+      "kg": 86.18,
+      "leanlb": 156.93,
+      "leankg": 71.18,
+      "fatlb": 33.05,
+      "fatkg": 14.99,
+      "fatpercent": 17.4
+    },
+    {
+      "Date": "25-Jul-2016",
+      "pounds": 189.29,
+      "kg": 85.86,
+      "leanlb": 151.81,
+      "leankg": 68.86,
+      "fatlb": 37.47,
+      "fatkg": 17,
+      "fatpercent": 19.8
+    },
+    {
+      "Date": "27-Jul-2016",
+      "pounds": 191.53,
+      "kg": 86.88,
+      "leanlb": 153.5,
+      "leankg": 69.63,
+      "fatlb": 38.03,
+      "fatkg": 17.25,
+      "fatpercent": 19.86
+    },
+    {
+      "Date": "09-Aug-2016",
+      "pounds": 187.94,
+      "kg": 85.25,
+      "leanlb": 155.38,
+      "leankg": 70.48,
+      "fatlb": 32.56,
+      "fatkg": 14.77,
+      "fatpercent": 17.33
+    },
+    {
+      "Date": "17-Aug-2016",
+      "pounds": 188.89,
+      "kg": 85.68,
+      "leanlb": 153.85,
+      "leankg": 69.78,
+      "fatlb": 35.04,
+      "fatkg": 15.9,
+      "fatpercent": 18.55
+    },
+    {
+      "Date": "25-Aug-2016",
+      "pounds": 189.93,
+      "kg": 86.15,
+      "leanlb": 152.66,
+      "leankg": 69.25,
+      "fatlb": 37.27,
+      "fatkg": 16.91,
+      "fatpercent": 19.62
+    },
+    {
+      "Date": "01-Sep-2016",
+      "pounds": 192.04,
+      "kg": 87.11,
+      "leanlb": 154.67,
+      "leankg": 70.16,
+      "fatlb": 37.37,
+      "fatkg": 16.95,
+      "fatpercent": 19.46
+    },
+    {
+      "Date": "16-Sep-2016",
+      "pounds": 190.29,
+      "kg": 86.31,
+      "leanlb": 153.14,
+      "leankg": 69.46,
+      "fatlb": 37.15,
+      "fatkg": 16.85,
+      "fatpercent": 19.52
+    },
+    {
+      "Date": "20-Sep-2016",
+      "pounds": 190.08,
+      "kg": 86.22,
+      "leanlb": 154.02,
+      "leankg": 69.86,
+      "fatlb": 36.06,
+      "fatkg": 16.36,
+      "fatpercent": 18.97
+    },
+    {
+      "Date": "26-Sep-2016",
+      "pounds": 190.73,
+      "kg": 86.52,
+      "leanlb": 153.81,
+      "leankg": 69.77,
+      "fatlb": 36.93,
+      "fatkg": 16.75,
+      "fatpercent": 19.36
+    },
+    {
+      "Date": "20-Oct-2016",
+      "pounds": 189.69,
+      "kg": 86.04,
+      "leanlb": 151.94,
+      "leankg": 68.92,
+      "fatlb": 37.75,
+      "fatkg": 17.13,
+      "fatpercent": 19.9
+    },
+    {
+      "Date": "06-Nov-2016",
+      "pounds": 191.28,
+      "kg": 86.76,
+      "leanlb": 153.69,
+      "leankg": 69.71,
+      "fatlb": 37.58,
+      "fatkg": 17.05,
+      "fatpercent": 19.65
+    },
+    {
+      "Date": "22-Nov-2016",
+      "pounds": 190.91,
+      "kg": 86.59,
+      "leanlb": 156.61,
+      "leankg": 71.04,
+      "fatlb": 34.3,
+      "fatkg": 15.56,
+      "fatpercent": 17.97
+    },
+    {
+      "Date": "21-Dec-2016",
+      "pounds": 190.89,
+      "kg": 86.59,
+      "leanlb": 154.27,
+      "leankg": 69.98,
+      "fatlb": 36.62,
+      "fatkg": 16.61,
+      "fatpercent": 19.18
+    },
+    {
+      "Date": "25-Jan-2017",
+      "pounds": 189.41,
+      "kg": 85.92,
+      "leanlb": 153.2,
+      "leankg": 69.49,
+      "fatlb": 36.21,
+      "fatkg": 16.43,
+      "fatpercent": 19.12
+    },
+    {
+      "Date": "12-Mar-2017",
+      "pounds": 193.08,
+      "kg": 87.58,
+      "leanlb": 156.41,
+      "leankg": 70.95,
+      "fatlb": 36.67,
+      "fatkg": 16.63,
+      "fatpercent": 18.99
+    },
+    {
+      "Date": "14-Mar-2017",
+      "pounds": 189.33,
+      "kg": 85.88,
+      "leanlb": 152.3,
+      "leankg": 69.08,
+      "fatlb": 37.04,
+      "fatkg": 16.8,
+      "fatpercent": 19.56
+    },
+    {
+      "Date": "16-Mar-2017",
+      "pounds": 189.12,
+      "kg": 85.79,
+      "leanlb": 151.47,
+      "leankg": 68.71,
+      "fatlb": 37.65,
+      "fatkg": 17.08,
+      "fatpercent": 19.91
+    },
+    {
+      "Date": "12-Jun-2017",
+      "pounds": 193.98,
+      "kg": 87.99,
+      "leanlb": 155.69,
+      "leankg": 70.62,
+      "fatlb": 38.29,
+      "fatkg": 17.37,
+      "fatpercent": 19.74
+    },
+    {
+      "Date": "17-Sep-2017",
+      "pounds": 191.48,
+      "kg": 86.86,
+      "leanlb": 151.85,
+      "leankg": 68.88,
+      "fatlb": 39.63,
+      "fatkg": 17.98,
+      "fatpercent": 20.7
+    },
+    {
+      "Date": "24-Jan-2018",
+      "pounds": 194.76,
+      "kg": 88.34,
+      "leanlb": 154.73,
+      "leankg": 70.19,
+      "fatlb": 40.02,
+      "fatkg": 18.16,
+      "fatpercent": 20.55
+    },
+    {
+      "Date": "12-May-2018",
+      "pounds": 198.08,
+      "kg": 89.85,
+      "leanlb": 153.22,
+      "leankg": 69.5,
+      "fatlb": 44.86,
+      "fatkg": 20.35,
+      "fatpercent": 22.65
+    },
+    {
+      "Date": "18-May-2018",
+      "pounds": 197.03,
+      "kg": 89.37,
+      "leanlb": 152.73,
+      "leankg": 69.28,
+      "fatlb": 44.29,
+      "fatkg": 20.09,
+      "fatpercent": 22.48
+    },
+    {
+      "Date": "20-May-2018",
+      "pounds": 197.7,
+      "kg": 89.68,
+      "leanlb": 151.51,
+      "leankg": 68.73,
+      "fatlb": 46.18,
+      "fatkg": 20.95,
+      "fatpercent": 23.36
+    },
+    {
+      "Date": "02-Jun-2018",
+      "pounds": 194.75,
+      "kg": 88.34,
+      "leanlb": 152.08,
+      "leankg": 68.98,
+      "fatlb": 42.67,
+      "fatkg": 19.35,
+      "fatpercent": 21.91
+    },
+    {
+      "Date": "31-Jul-2018",
+      "pounds": 193.99,
+      "kg": 87.99,
+      "leanlb": 151.46,
+      "leankg": 68.7,
+      "fatlb": 42.53,
+      "fatkg": 19.29,
+      "fatpercent": 21.93
+    },
+    {
+      "Date": "15-Aug-2018",
+      "pounds": 191.48,
+      "kg": 86.86,
+      "leanlb": 151.79,
+      "leankg": 68.85,
+      "fatlb": 39.69,
+      "fatkg": 18,
+      "fatpercent": 20.73
+    },
+    {
+      "Date": "22-Aug-2018",
+      "pounds": 185.94,
+      "kg": 84.34,
+      "leanlb": 148.64,
+      "leankg": 67.42,
+      "fatlb": 37.31,
+      "fatkg": 16.92,
+      "fatpercent": 20.06
+    },
+    {
+      "Date": "25-Sep-2018",
+      "pounds": 188.16,
+      "kg": 85.35,
+      "leanlb": 150.41,
+      "leankg": 68.23,
+      "fatlb": 37.75,
+      "fatkg": 17.12,
+      "fatpercent": 20.06
+    },
+    {
+      "Date": "26-Sep-2018",
+      "pounds": 192.31,
+      "kg": 87.23,
+      "leanlb": 150.65,
+      "leankg": 68.33,
+      "fatlb": 41.66,
+      "fatkg": 18.9,
+      "fatpercent": 21.66
+    },
+    {
+      "Date": "13-Oct-2018",
+      "pounds": 186.46,
+      "kg": 84.58,
+      "leanlb": 151.37,
+      "leankg": 68.66,
+      "fatlb": 35.1,
+      "fatkg": 15.92,
+      "fatpercent": 18.82
+    },
+    {
+      "Date": "13-Oct-2018",
+      "pounds": 186.39,
+      "kg": 84.55,
+      "leanlb": 151.79,
+      "leankg": 68.85,
+      "fatlb": 34.6,
+      "fatkg": 15.7,
+      "fatpercent": 18.57
+    },
+    {
+      "Date": "13-Oct-2018",
+      "pounds": 186.39,
+      "kg": 84.55,
+      "leanlb": 151.42,
+      "leankg": 68.68,
+      "fatlb": 34.97,
+      "fatkg": 15.86,
+      "fatpercent": 18.76
+    },
+    {
+      "Date": "13-Oct-2018",
+      "pounds": 186.34,
+      "kg": 84.52,
+      "leanlb": 151.48,
+      "leankg": 68.71,
+      "fatlb": 34.86,
+      "fatkg": 15.81,
+      "fatpercent": 18.71
+    },
+    {
+      "Date": "13-Oct-2018",
+      "pounds": 194.5,
+      "kg": 88.23,
+      "leanlb": 153.3,
+      "leankg": 69.54,
+      "fatlb": 41.2,
+      "fatkg": 18.69,
+      "fatpercent": 21.18
+    },
+    {
+      "Date": "13-Oct-2018",
+      "pounds": 185.88,
+      "kg": 84.32,
+      "leanlb": 151.85,
+      "leankg": 68.88,
+      "fatlb": 34.03,
+      "fatkg": 15.44,
+      "fatpercent": 18.31
+    },
+    {
+      "Date": "28-Dec-2018",
+      "pounds": 191.07,
+      "kg": 86.67,
+      "leanlb": 152.97,
+      "leankg": 69.39,
+      "fatlb": 38.1,
+      "fatkg": 17.28,
+      "fatpercent": 19.94
+    },
+    {
+      "Date": "06-Jan-2019",
+      "pounds": 188.62,
+      "kg": 85.56,
+      "leanlb": 150.92,
+      "leankg": 68.46,
+      "fatlb": 37.7,
+      "fatkg": 17.1,
+      "fatpercent": 19.99
+    },
+    {
+      "Date": "10-Feb-2019",
+      "pounds": 185.22,
+      "kg": 84.02,
+      "leanlb": 149.93,
+      "leankg": 68.01,
+      "fatlb": 35.29,
+      "fatkg": 16.01,
+      "fatpercent": 19.05
+    },
+    {
+      "Date": "10-Feb-2019",
+      "pounds": 182.18,
+      "kg": 82.64,
+      "leanlb": 149.48,
+      "leankg": 67.81,
+      "fatlb": 32.7,
+      "fatkg": 14.83,
+      "fatpercent": 17.95
+    },
+    {
+      "Date": "08-Jun-2019",
+      "pounds": 186.27,
+      "kg": 84.49,
+      "leanlb": 151.82,
+      "leankg": 68.87,
+      "fatlb": 34.45,
+      "fatkg": 15.63,
+      "fatpercent": 18.5
+    },
+    {
+      "Date": "21-Jun-2019",
+      "pounds": 181.44,
+      "kg": 82.3,
+      "leanlb": 148.25,
+      "leankg": 67.25,
+      "fatlb": 33.19,
+      "fatkg": 15.05,
+      "fatpercent": 18.29
+    },
+    {
+      "Date": "21-Jun-2019",
+      "pounds": 181.52,
+      "kg": 82.34,
+      "leanlb": 148.61,
+      "leankg": 67.41,
+      "fatlb": 32.91,
+      "fatkg": 14.93,
+      "fatpercent": 18.13
+    },
+    {
+      "Date": "04-Nov-2019",
+      "pounds": 174,
+      "kg": 78.92,
+      "leanlb": 147.84,
+      "leankg": 67.06,
+      "fatlb": 26.16,
+      "fatkg": 11.87,
+      "fatpercent": 15.04
+    },
+    {
+      "Date": "04-Nov-2019",
+      "pounds": 174.21,
+      "kg": 79.02,
+      "leanlb": 147.91,
+      "leankg": 67.09,
+      "fatlb": 26.29,
+      "fatkg": 11.93,
+      "fatpercent": 15.09
+    },
+    {
+      "Date": "04-Nov-2019",
+      "pounds": 175.03,
+      "kg": 79.39,
+      "leanlb": 148.45,
+      "leankg": 67.33,
+      "fatlb": 26.58,
+      "fatkg": 12.06,
+      "fatpercent": 15.19
+    },
+    {
+      "Date": "09-Nov-2019",
+      "pounds": 178.14,
+      "kg": 80.8,
+      "leanlb": 147.58,
+      "leankg": 66.94,
+      "fatlb": 30.56,
+      "fatkg": 13.86,
+      "fatpercent": 17.15
+    },
+    {
+      "Date": "15-Nov-2019",
+      "pounds": 178.05,
+      "kg": 80.76,
+      "leanlb": 146.56,
+      "leankg": 66.48,
+      "fatlb": 31.49,
+      "fatkg": 14.28,
+      "fatpercent": 17.69
+    },
+    {
+      "Date": "15-Nov-2019",
+      "pounds": 177.99,
+      "kg": 80.73,
+      "leanlb": 146.35,
+      "leankg": 66.39,
+      "fatlb": 31.63,
+      "fatkg": 14.35,
+      "fatpercent": 17.77
+    },
+    {
+      "Date": "15-Nov-2019",
+      "pounds": 177.92,
+      "kg": 80.7,
+      "leanlb": 146.15,
+      "leankg": 66.29,
+      "fatlb": 31.77,
+      "fatkg": 14.41,
+      "fatpercent": 17.86
+    },
+    {
+      "Date": "15-Nov-2019",
+      "pounds": 173.3,
+      "kg": 78.61,
+      "leanlb": 144.57,
+      "leankg": 65.57,
+      "fatlb": 28.74,
+      "fatkg": 13.03,
+      "fatpercent": 16.58
+    }
+  ]

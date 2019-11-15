@@ -1,5 +1,9 @@
 [
- 
+  { "title": "Charts tracking my weight",
+    "summary": "How has embracing a 'whole foods plant based' diet chnaged my weight?",
+    "link": "/tracking-personal-weight",
+    "img": "/v.png"
+  },
   { "title": "Alternative Premier League Table",
   "summary": "Also known as Cann tables, these tables are a great way of seeing just how points are distributed across a league.",
   "link": "/alternative-league-tables",

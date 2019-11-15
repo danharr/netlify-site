@@ -193,7 +193,10 @@ else if (this.league === 'English Championship')
 
 else if (this.league === 'Ligue 1')
 
-{return this.FL1}}
+{return this.FL1}
+
+
+}
 
 
 
