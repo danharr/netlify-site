@@ -42,29 +42,29 @@ export default {
       posts:[
   { 'title': 'Charts tracking my weight',
     'summary': 'How has embracing a \'whole foods plant based\' diet chnaged my weight?',
-    'link': '/tracking-personal-weight',
+    'link': '/tracking-personal-weight/',
     'img': '/v.png'
   },
   { 'title': 'Alternative Premier League Table',
   'summary': 'Also known as Cann tables, these tables are a great way of seeing just how points are distributed across a league.',
-  'link': '/alternative-league-tables',
+  'link': '/alternative-league-tables/',
   'img': '/v.png'
 },
 { 'title': 'Latest Fantasy Football Standings',
   'summary': 'A private league - standings visualised',
-  'link': '/fantasy-football-standings',
+  'link': '/fantasy-football-standings/',
   'img': '/v.png'
 },{ 'title': 'Build your own sensory board',
     'summary': 'How we saved money building our own sensory board (aka busy board)',
-    'link': '/build-sensory-busy-board',
+    'link': '/build-sensory-busy-board/',
     'img': '/sensory-busy-board-small.jpg'
   }, { 'title': 'An example sleep schedule for 12 month old baby',
     'summary': 'A timeline showing an example sleep schedule for a 12 month old baby',
-    'link': '/12-month-baby-sleep-schedule',
+    'link': '/12-month-baby-sleep-schedule/',
     'img': '/v.png'
   }, { 'title': 'Things to consider when creating a new website',
     'summary': 'There are many options to choose from when creating a new website or blog.  In this article I cover some options I\'ve used in the past',
-    'link': '/creating-new-website-things-to-consider',
+    'link': '/creating-new-website-things-to-consider/',
     'img': '/v.png'
   }, { 'title': '2019/20 Football Season Predictions',
     'summary': 'My thoughts on the upcoming football season',

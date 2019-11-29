@@ -4,6 +4,11 @@
     <v-flex >
       
       <h1>Tracking Personal Weight</h1>
+
+          <v-radio-group v-model="metric" row @change="upd_yaxis">
+      <v-radio label="Pounds" value="lbs"></v-radio>
+      <v-radio label="Lean Pounds" value="lean"></v-radio>
+    </v-radio-group>
      
       <v-slider
           v-model="yaxis"
@@ -15,7 +20,8 @@
         ></v-slider>
 
       <div class="post">
-      
+
+{{metric}}      
 
 <div id="viz" width="100%">
 
@@ -54,6 +60,7 @@ export default {
   },
   data () {
     return {
+      metric:'lbs',
       value: [0, 2, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
       yaxis:2,
       myAutoDraw: false,
@@ -117,8 +124,8 @@ export default {
 mounted() {
 
       axios
-      //.get('/weight.json')
-      .get('https://danharrington.netlify.com/weight.json')
+      .get('/weight.json')
+      //.get('https://danharrington.netlify.com/weight.json')
       .then(response => {
         var x = response.data
 
@@ -223,10 +230,15 @@ d3.selectAll(".y.axis")
 var xScale = d3.scaleTime().range([0, width]);
 xScale.domain(d3.extent(this.stats, function(d) { return parseTime(d.Date); }));
 
+var series = '';
+
+if (this.metric === 'lbs') {series = 'pounds'}
+if (this.metric === 'lean') {series = 'leanlb'}
+
 
       var valueline = d3.line()
         .x(function(d) { return xScale(parseTime(d.Date)); })
-        .y(function(d) { return yScale(d.pounds);  })
+        .y(function(d) { return yScale(d[series]);  })
         .curve(d3.curveMonotoneX);
 
 

@@ -1,21 +1,21 @@
 [
   { "title": "Charts tracking my weight",
     "summary": "How has embracing a 'whole foods plant based' diet chnaged my weight?",
-    "link": "/tracking-personal-weight",
+    "link": "/tracking-personal-weight/",
     "img": "/v.png"
   },
   { "title": "Alternative Premier League Table",
   "summary": "Also known as Cann tables, these tables are a great way of seeing just how points are distributed across a league.",
-  "link": "/alternative-league-tables",
+  "link": "/alternative-league-tables/",
   "img": "/v.png"
 },
 { "title": "Latest Fantasy Football Standings",
   "summary": "A private league - standings visualised",
-  "link": "/fantasy-football-standings",
+  "link": "/fantasy-football-standings/",
   "img": "/v.png"
 },{ "title": "Build your own sensory board",
     "summary": "How we saved money building our own sensory board (aka busy board)",
-    "link": "/build-sensory-busy-board",
+    "link": "/build-sensory-busy-board/",
     "img": "/sensory-busy-board-small.jpg"
   }, { "title": "An example sleep schedule for 12 month old baby",
     "summary": "A timeline showing an example sleep schedule for a 12 month old baby",
@@ -23,31 +23,31 @@
     "img": "/v.png"
   }, { "title": "Things to consider when creating a new website",
     "summary": "There are many options to choose from when creating a new website or blog.  In this article I cover some options I\"ve used in the past",
-    "link": "/creating-new-website-things-to-consider",
+    "link": "/creating-new-website-things-to-consider/",
     "img": "/v.png"
   }, { "title": "2019/20 Football Season Predictions",
     "summary": "My thoughts on the upcoming football season",
-    "link": "/2020-football-predictions",
+    "link": "/2020-football-predictions/",
     "img": "/v.png"
   },
   { "title": "Nest Outdoor IQ Camera",
     "summary": "1 month after purchase I review the Nest Outdoor IQ camera, £329 from John Lewis",
-    "link": "/nest-outdoor-iq-review",
+    "link": "/nest-outdoor-iq-review/",
     "img": "/nest outdoor iq.png"
   },
   { "title": "My career timeline",
     "summary": "Where have I worked so far in my career.  We also look at how the timeline component in Vuetify works",
-    "link": "/career-vuetify-timeline-cv",
+    "link": "/career-vuetify-timeline-cv/",
     "img": "/v.png"
   },
   { "title": "Continuous Deployment",
     "summary": "A little test of github webhooks",
-    "link": "/continuous-deployment",
+    "link": "/continuous-deployment/",
     "img": "/v.png"
   },
   { "title": "New blog",
     "summary": "A short introduction to this new blog of mine",
-    "link": "/first-post",
+    "link": "/first-post/",
     "img": "/v.png"
   }
   ]
