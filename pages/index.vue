@@ -40,8 +40,13 @@ export default {
   data () {
     return {
       posts:[
+        { 'title': 'Premier League Managers - Head to Head',
+    'summary': 'A dataviz showing the history of managers competing against each other',
+    'link': '/premier-league-manager-head-to-head-record/',
+    'img': '/v.png'
+  },
   { 'title': 'Charts tracking my weight',
-    'summary': 'How has embracing a \'whole foods plant based\' diet chnaged my weight?',
+    'summary': 'How has embracing a \'whole foods plant based\' diet changed my weight?',
     'link': '/tracking-personal-weight/',
     'img': '/v.png'
   },
