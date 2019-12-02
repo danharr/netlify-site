@@ -1,16 +1,16 @@
 <template>
   <v-layout>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" integrity="sha256-+9Mf3cAVmxxudDsr1XwXUeRZFtvdWVYdq5/vcgiYyNU=" crossorigin="anonymous"></script>
     <v-flex >
       
-      <h1>h2h</h1>
+      <h1>Manager Head to Heads - Premier League</h1>
 
 
 
       <div class="post">
 
-<p>There have been {{manager_list.length}} managers in total.</p>
+<p>There have been {{manager_list.length}} managers in total in the Premier League (including caretakers).  The below app allows you to see the latest historical record between 2 managers.  Choose legends such as Alex Ferguson or Harry Redknapp.  Data updated after each game week (usually Tuesday)</p>
 
 
    <v-select
@@ -31,8 +31,7 @@
 
   <p>{{home_manager}} vs {{away_manager}} has occured {{matches.length}} times</p>
 
-
-      <div style="display:flex;justify-content:space-around;margin-bottom:20px;" >
+<div id="h2h">  <div style="display:flex;justify-content:space-around;margin-bottom:20px;" >
 
 <span class="vs">{{home_manager}}</span>
 <span class="vs2">{{win1}}-{{draw}}-{{win2}}</span>
@@ -55,7 +54,7 @@
   <div style="display:flex;justify-content:space-around" >
 
 
-  <p class="teams">{{s.ht}}</p><h2>{{s.hg}}-{{s.ag}}</h2> <p class="teams">{{s.at}}</p>
+  <p class="teams">{{s.ht}}</p><h2 class="score">{{s.hg}}-{{s.ag}}</h2> <p class="teams">{{s.at}}</p>
 
 
 
@@ -65,7 +64,8 @@
 <hr style="margin:2px;border: 0.5px solid grey;">
 
 
-  </div>
+  </div></div>
+    
 
 
   </div>
@@ -277,25 +277,27 @@ font-size:18px;
 
 .vs{
 
-  font-family: 'Alegreya Sans SC', sans-serif, 'Arial';
+  font-family: 'Alatsi', sans-serif;
   font-size:28px;
   width:100px;
   text-align: center;
+  color: aliceblue;
 }
 
 
 .vs2{
 
-  font-family: 'Alegreya Sans SC', sans-serif, 'Arial';
+  font-family: 'Alatsi', sans-serif;
   font-size:44px;
-  width:100px;
+  min-width:200px;
   text-align: center;
+  color: aliceblue;
 }
 
 .stadium {
 
 font-size: 80%;
-color: cadetblue;
+color: aliceblue;
 
 }
 
@@ -304,6 +306,25 @@ color: cadetblue;
 
   width:100px;
   font-size:90%;
+  color: aliceblue;
 }
+
+
+
+#h2h {
+
+  background-color: darkgreen;
+  border-radius: 25px;
+  padding:20px;
+  margin-bottom: 30px;
+}
+
+.score {
+
+  color: aliceblue;
+
+}
+
+
 
 </style>
