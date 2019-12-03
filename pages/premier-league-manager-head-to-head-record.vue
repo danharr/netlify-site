@@ -1,6 +1,15 @@
 <template>
   <v-layout>
-    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" integrity="sha256-+9Mf3cAVmxxudDsr1XwXUeRZFtvdWVYdq5/vcgiYyNU=" crossorigin="anonymous"></script>
     <v-flex >
       
@@ -31,40 +40,52 @@
 
   <p>{{home_manager}} vs {{away_manager}} has occured {{matches.length}} times</p>
 
-<div id="h2h">  <div style="display:flex;justify-content:space-around;margin-bottom:20px;" >
-
-<span class="vs">{{home_manager}}</span>
-<span class="vs2">{{win1}}-{{draw}}-{{win2}}</span>
-<span class="vs">{{away_manager}}</span>
 
 
-</div>
+    <v-card
+      class="mx-auto"
+      :color=color(s.wm)
+      dark
+      max-width="400"
+      v-for="(s,i) in matches"
+      :key="i"
+      style="margin:40px;"
+    >
+      <v-card-title style=" display: flex;justify-content: center;padding-bottom:0px;">
+   
+        <span class="title font-weight-light">{{s.ht}} vs {{s.at}}</span>
+   
+      </v-card-title>
+  
+      <v-card-text  style="text-align: center;padding:0px;">
+           <v-btn
+                absolute
+                
+                
+                top
+                right
+                
+              >
+                {{s.dt}}
+              </v-btn>
+        <p class="font-weight-bold" style="font-size:200%;margin:0px;">{{s.hg}}-{{s.ag}}</p> 
+        <p style="font-size:80%;margin:0px;">{{s.g}}</p>
+      </v-card-text>
+  
+      <v-card-actions style="padding-top:0px;">
+        <v-list-tile class="grow">
+
+  
+      
+            <v-list-tile-title style="margin:0px;">{{result(s.wm)}}</v-list-tile-title>
+        
+  
+     
+        </v-list-tile>
+      </v-card-actions>
+    </v-card>
 
 
-  <div  v-for="(s,i) in matches" :key="i">
-
-<div class="stadium" style="display:flex;justify-content:space-around" >
-  {{s.g}}
-  </div>
-  <div class="stadium" style="display:flex;justify-content:space-around" >
-  {{s.dt}}
-  </div>
-
-
-  <div style="display:flex;justify-content:space-around" >
-
-
-  <p class="teams">{{s.ht}}</p><h2 class="score">{{s.hg}}-{{s.ag}}</h2> <p class="teams">{{s.at}}</p>
-
-
-
-  </div>
-
-
-<hr style="margin:2px;border: 0.5px solid grey;">
-
-
-  </div></div>
     
 
 
@@ -140,10 +161,55 @@ mounted() {
 methods:{
 
 
-doSomething:function(){
+color:function(a){
 
 
-console.log(1)
+
+if (a==='Draw') {
+
+return 'grey'
+
+}
+
+else if (a===this.home_manager) {
+
+return 'orange'
+
+}
+
+else {
+
+return 'blue'
+
+}
+
+
+
+},
+
+result:function(a){
+
+
+
+if (a==='Draw') {
+
+return 'Game drawn'
+
+}
+
+else if (a===this.home_manager) {
+
+return `${this.home_manager} won`
+
+}
+
+else {
+
+return `${this.away_manager} won`
+
+}
+
+
 
 }
 
@@ -278,7 +344,7 @@ font-size:18px;
 .vs{
 
   font-family: 'Alatsi', sans-serif;
-  font-size:28px;
+  font-size:22px;
   width:100px;
   text-align: center;
   color: aliceblue;
@@ -288,7 +354,7 @@ font-size:18px;
 .vs2{
 
   font-family: 'Alatsi', sans-serif;
-  font-size:44px;
+  font-size:24px;
   min-width:200px;
   text-align: center;
   color: aliceblue;
@@ -313,10 +379,16 @@ color: aliceblue;
 
 #h2h {
 
-  background-color: darkgreen;
-  border-radius: 25px;
+
+  border-radius: 8px;
   padding:20px;
   margin-bottom: 30px;
+  max-width:400px;
+  margin:auto;
+
+
+   background: #282537;
+
 }
 
 .score {
