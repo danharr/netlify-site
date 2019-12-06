@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" integrity="sha256-+9Mf3cAVmxxudDsr1XwXUeRZFtvdWVYdq5/vcgiYyNU=" crossorigin="anonymous"></script>
     <v-flex >
       
-      <h1>Manager Head to Heads - Premier League</h1>
+      <h3>Manager Head to Heads - Premier League</h3>
 
 
 
@@ -41,52 +41,29 @@
   <p>{{home_manager}} vs {{away_manager}} has occured {{matches.length}} times</p>
 
 
-
-    <v-card
-      class="mx-auto"
-      :color=color(s.wm)
-      dark
-      max-width="400"
-      v-for="(s,i) in matches"
-      :key="i"
-      style="margin:40px;"
-    >
-      <v-card-title style=" display: flex;justify-content: center;padding-bottom:0px;">
-   
-        <span class="title font-weight-light">{{s.ht}} vs {{s.at}}</span>
-   
-      </v-card-title>
-  
-      <v-card-text  style="text-align: center;padding:0px;">
-           <v-btn
-                absolute
-                
-                
-                top
-                right
-                
-              >
-                {{s.dt}}
-              </v-btn>
-        <p class="font-weight-bold" style="font-size:200%;margin:0px;">{{s.hg}}-{{s.ag}}</p> 
-        <p style="font-size:80%;margin:0px;">{{s.g}}</p>
-      </v-card-text>
-  
-      <v-card-actions style="padding-top:0px;">
-        <v-list-tile class="grow">
-
-  
-      
-            <v-list-tile-title style="margin:0px;">{{result(s.wm)}}</v-list-tile-title>
-        
-  
-     
-        </v-list-tile>
-      </v-card-actions>
-    </v-card>
+<div class="scores" v-for="(s,i) in matches" :key="i" >
 
 
-    
+<p class="date">{{s.dt}}</p>
+<div style="display:flex;flex:no-wrap;"><div class="home">
+  {{s.ht}}
+</div>
+<div class="score">{{s.hg}}</div>
+<div class="score">{{s.ag}}</div>
+<div class="away">{{s.at}}</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
 
 
   </div>
@@ -336,7 +313,7 @@ return draws.length
 hr {margin:20px;}
 .post {margin-left:1pc;margin-right:1pc}
 p {
-font-size:18px;
+font-size:14px;
 }
 
 
@@ -391,12 +368,56 @@ color: aliceblue;
 
 }
 
+.home {
+
+ width:40%;
+overflow: hidden;
+    text-overflow: ellipsis;
+ text-align: right;
+     line-height: 28px;
+     white-space: nowrap;
+     font-weight: bold !important;
+     margin-right:2px;
+
+}
+
+.away {
+
+ width:40%;
+overflow: hidden;
+    text-overflow: ellipsis;
+ text-align: left;
+     line-height: 28px;
+     white-space: nowrap;
+     font-weight: bold !important;
+      margin-left:2px;
+
+}
+
 .score {
 
-  color: aliceblue;
+ width:20px;
+     background-color: #ffd230;
+ text-align: center;
+     font-weight: bold !important;
+         text-align: center;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #121212;
+    margin:1px;
 
 }
 
 
+
+.date{
+
+
+  padding: 8px;
+    line-height: 1rem;
+    text-transform: uppercase;
+    background-color: #f7f7f5;
+}
 
 </style>
