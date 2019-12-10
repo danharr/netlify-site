@@ -420,4 +420,10 @@ overflow: hidden;
     background-color: #f7f7f5;
 }
 
+
+.scores{
+
+  margin-bottom:20px;
+}
+
 </style>
