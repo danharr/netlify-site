@@ -21,8 +21,8 @@
 
       <div class="post">
 
-<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/Dashboard1?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no"
- width="1245" height="955"></iframe>
+<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/Head2Head?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:device=phone"
+ width="385" height="900"></iframe>
 
 
   </div>
@@ -50,7 +50,7 @@ export default {
   },
   head () {
     return {
-      title: 'h2h',
+      title: 'Premier League Manager Head to Head Data',
       meta: [
         { hid: 'description', name: 'Head to Head records for every Premier League manager', content: 'Premier League Manager Head to Head records' }
       ]
