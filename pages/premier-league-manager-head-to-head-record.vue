@@ -14,14 +14,14 @@
     <v-flex >
       
       <h3>Manager vs Manager over time</h3>
-<p>I've collected all results in the Premier League since inception and used it to make a tool that shows manager vs manager records.  I have used Tableau Public to make the visuals.
+<p>I've collected all results in the Premier League since its inception and used it to make a tool that shows manager vs manager records.  I have used Tableau Public to make the visuals.
   Choose such famous rivals as Arsene Wenger vs Alex Ferguson, or Jose Mourinho vs Pep Guardiola.
 </p>
 
 
       <div class="post">
 
-<iframe frameBorder="0"  src="http://public.tableau.com/views/ManagervsManager/Dashboard1?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no"
+<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/Dashboard1?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no"
  width="1245" height="955"></iframe>
 
 
@@ -52,7 +52,7 @@ export default {
     return {
       title: 'h2h',
       meta: [
-        { hid: 'description', name: 'description', content: 'h2h' }
+        { hid: 'description', name: 'Head to Head records for every Premier League manager', content: 'Premier League Manager Head to Head records' }
       ]
     }
   },
