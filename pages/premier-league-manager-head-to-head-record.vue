@@ -21,8 +21,8 @@
 
       <div class="post">
 
-<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/Head2Head?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:device=phone"
- width="385" height="900"></iframe>
+<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/Head2Head?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:highdpi=true"
+ width="355" height="800"></iframe>
 
 
   </div>
@@ -70,7 +70,7 @@ export default {
 
 <style>
 hr {margin:20px;}
-.post {margin-left:1pc;margin-right:1pc}
+
 p {
 font-size:14px;
 }
