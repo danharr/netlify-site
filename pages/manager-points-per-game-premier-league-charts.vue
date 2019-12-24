@@ -13,15 +13,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" integrity="sha256-+9Mf3cAVmxxudDsr1XwXUeRZFtvdWVYdq5/vcgiYyNU=" crossorigin="anonymous"></script>
     <v-flex >
       <div class="summary">
-      <h3>Manager vs Manager over time</h3>
-<p>I've collected all results in the Premier League since its inception and used it to make a tool that shows manager vs manager records.  I have used Tableau Public to make the visuals.
-  Choose such famous rivals as Arsene Wenger vs Alex Ferguson, or Jose Mourinho vs Pep Guardiola.
+      <h3>Manager Points Per Game Stats</h3>
+<p>I've collected all results in the Premier League since its inception and used it to make a tool that shows points per game records by season.  I have used Tableau Public to make the visuals.
 </p>
 </div>
 
       <div class="post">
 
-<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/Head2Head?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:highdpi=true&:tabs=no"
+<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/PointsPerGame?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:highdpi=true&:tabs=no"
  width="355" height="800"></iframe>
 
 
@@ -50,9 +49,9 @@ export default {
   },
   head () {
     return {
-      title: 'Premier League Manager Head to Head Data',
+      title: 'Premier League Point Per Game stats',
       meta: [
-        { hid: 'description', name: 'Head to Head records for every Premier League manager', content: 'Premier League Manager Head to Head records' }
+        { hid: 'description', name: 'Premier League Points Per Game Charts', content: 'Premier League Points Per Game Table and Charts' }
       ]
     }
   },

@@ -39,7 +39,11 @@ export default {
   name: 'home',
   data () {
     return {
-      posts:[
+      posts:[     { 'title': 'Premier League Teams Points Per Game',
+    'summary': 'A dataviz showing the history of points per game by season',
+    'link': '/manager-points-per-game-premier-league-charts/',
+    'img': '/v.png'
+  },
         { 'title': 'Premier League Managers - Head to Head',
     'summary': 'A dataviz showing the history of managers competing against each other',
     'link': '/premier-league-manager-head-to-head-record/',
