@@ -12,12 +12,12 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js" integrity="sha256-+9Mf3cAVmxxudDsr1XwXUeRZFtvdWVYdq5/vcgiYyNU=" crossorigin="anonymous"></script>
     <v-flex >
-      
+      <div class="summary">
       <h3>Manager vs Manager over time</h3>
 <p>I've collected all results in the Premier League since its inception and used it to make a tool that shows manager vs manager records.  I have used Tableau Public to make the visuals.
   Choose such famous rivals as Arsene Wenger vs Alex Ferguson, or Jose Mourinho vs Pep Guardiola.
 </p>
-
+</div>
 
       <div class="post">
 
@@ -75,7 +75,17 @@ p {
 font-size:14px;
 }
 
+.container {
 
+
+  padding:0px;
+}
+
+
+.summary{
+
+  padding:16px;
+}
 
 
 </style>
