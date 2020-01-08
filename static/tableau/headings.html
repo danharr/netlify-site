@@ -51,8 +51,13 @@
 var url_string =  window.location.href
 var url = new URL(url_string);
 var c = url.searchParams.get("word");
+var col = url.searchParams.get("col");
+var size = url.searchParams.get("size");
 
 document.getElementById('word').innerText = c;
+document.getElementById('word').style.color = col;
+
+document.getElementById('word').style.fontSize = size + 'px';
 
 </script>
 
