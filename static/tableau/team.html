@@ -43,9 +43,18 @@
     
 
 
-<span>West Ham United</span>
+<span id='team'>team</span>
+
+<script>
 
 
+var url_string =  window.location.href
+var url = new URL(url_string);
+var c = url.searchParams.get("team");
+
+document.getElementById('team').innerText = c;
+
+</script>
 
     </body>
 </html>
