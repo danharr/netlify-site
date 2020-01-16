@@ -20,6 +20,7 @@ div {
 
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
      
 p{
@@ -49,8 +50,10 @@ p{
       img{
 
 
-        width: 100px;
-    height: 100px;
+        width: 50px;
+    height: 50px;
+    
+     vertical-align: middle;
       }
         
         </style>
@@ -89,6 +92,9 @@ var size1 = url.searchParams.get("size1");
 
 
 document.getElementById('name').style.fontSize = size1 + 'px';
+
+var bcol = url.searchParams.get("bcol");
+document.body.style.backgroundColor = '#'+bcol;
 
 
 
