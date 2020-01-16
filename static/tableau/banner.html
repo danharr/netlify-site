@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet"> 
+
+        <style>
+
+div {
+
+
+    display:flex;
+    justify-content: space-between;
+}
+     
+p{
+
+    
+    margin:10px;
+    padding:10px;
+    white-space: nowrap;
+  overflow: hidden;
+}
+      
+
+#name {
+    
+    font-family: 'Alata', sans-serif;
+
+}
+
+
+#refresh {
+    
+    font-family: 'Alata', sans-serif;
+    color: #6c8282;
+
+}
+
+      img{
+
+
+        width: 100px;
+    height: 100px;
+      }
+        
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+
+<div>
+ <div><img src="ps.png" alt="" srcset="">    
+<p id='name'>Dashboard Name</p></div>
+
+<p id='refresh'>Refresh</p></div>
+
+
+<script>
+
+
+var url_string =  window.location.href
+var url = new URL(url_string);
+
+var refresh = url.searchParams.get("refresh");
+document.getElementById('refresh').innerText = 'Refresh schedule: '+refresh;
+
+
+var Name = url.searchParams.get("name");
+document.getElementById('name').innerText = Name;
+
+
+var size1 = url.searchParams.get("size1");
+
+
+
+
+
+document.getElementById('name').style.fontSize = size1 + 'px';
+
+
+
+</script>
+
+    </body>
+</html>
