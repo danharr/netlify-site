@@ -12,9 +12,10 @@
         </div>
               
         <v-card-text>
+          <div style="height:100px;">
           <p>{{x.summary}}</p>
           
-        
+        </div>
  
         </v-card-text>
         <v-card-actions>
