@@ -22,7 +22,7 @@
       <div class="post">
 
 <iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/Head2Head?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:highdpi=true&:tabs=no"
- width="355" height="800"></iframe>
+ width="100%" height="1800"></iframe>
 
 
   </div>
