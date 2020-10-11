@@ -20,7 +20,7 @@
 
       <div class="post">
 
-<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/PointsPerGame?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:highdpi=true&:tabs=no"
+<iframe frameBorder="0"  src="https://public.tableau.com/views/ManagervsManager/PPG?:showVizHome=no&:embed=yes&:toolbar=no&:tooltip=no&:highdpi=true&:tabs=no"
  width="100%" height="1800"></iframe>
 
 
